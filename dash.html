@@ -423,82 +423,37 @@
                         <img src="./image/up_next_welcome_image_url.png">
                     </div>
                 </md-card>
-                <md-tabs class="dashboard-topics ng-isolate-scope md-dynamic-height" md-dynamic-height=""
-                         md-stretch-tabs="never" myg-chevron="" md-autoselect="" md-center-tabs="">
+                <md-tabs class="dashboard-topics ng-isolate-scope md-dynamic-height">
                     <md-tabs-wrapper>
-                        <md-tab-data>
 
-                            <md-tab class="ng-scope ng-isolate-scope">
+                        <div class="md-tabs-canvas" tabindex="0"
+                             role="tablist" class="md-center-tabs">
+                            <md-pagination-wrapper class="md-center-tabs text-center nav nav-tabs"
+                                                   style="width: 482px;">
 
-
-                            </md-tab>
-                            <md-tab class="ng-scope ng-isolate-scope">
-
-
-                            </md-tab>
-                        </md-tab-data> <!-- ngIf: $mdTabsCtrl.shouldPaginate -->
-                        <!-- ngIf: $mdTabsCtrl.shouldPaginate -->
-                        <md-tabs-canvas tabindex="0" aria-activedescendant="tab-item-1"
-                                        ng-focus="$mdTabsCtrl.redirectFocus()"
-                                        ng-class="{ 'md-paginated': $mdTabsCtrl.shouldPaginate, 'md-center-tabs': $mdTabsCtrl.shouldCenterTabs }"
-                                        ng-keydown="$mdTabsCtrl.keydown($event)" role="tablist" class="md-center-tabs">
-                            <md-pagination-wrapper ng-class="{ 'md-center-tabs': $mdTabsCtrl.shouldCenterTabs }"
-                                                   md-tab-scroll="$mdTabsCtrl.scroll($event)" class="md-center-tabs"
-                                                   style="width: 282px;"> <!-- ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-tab-item tabindex="-1"
-                                             class="md-tab ng-scope ng-isolate-scope md-ink-ripple md-active"
-                                             ng-repeat="tab in $mdTabsCtrl.tabs" role="tab"
-                                             aria-controls="tab-content-1" aria-selected="true" aria-disabled="false"
-                                             ng-click="$mdTabsCtrl.select(tab.getIndex())"
-                                             ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }"
-                                             ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()"
-                                             md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label"
-                                             md-scope="::tab.parent">
+                                <a href="#tab-content-1" data-toggle="tab"
+                                   class="md-tab text-center ng-scope ng-isolate-scope md-ink-ripple md-active"
+                                   role="tab" style="width: 50%;">
                                     <span class="dashboard-topics__title ng-scope">Topic Library</span>
-                                </md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-tab-item tabindex="-1" class="md-tab ng-scope ng-isolate-scope md-ink-ripple"
-                                             ng-repeat="tab in $mdTabsCtrl.tabs" role="tab"
-                                             aria-controls="tab-content-2" aria-selected="false" aria-disabled="false"
-                                             ng-click="$mdTabsCtrl.select(tab.getIndex())"
-                                             ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }"
-                                             ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()"
-                                             md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label"
-                                             md-scope="::tab.parent">
+                                </a>
+
+                                <a class="md-tab text-center ng-scope ng-isolate-scope md-ink-ripple"
+                                   role="tab" href="#tab-content-2" data-toggle="tab">
                                     <span class="dashboard-topics__title ng-scope">Badges (0)</span>
-                                </md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-ink-bar style="left: 0px; right: 128px;"></md-ink-bar>
+                                </a>
+
+
                             </md-pagination-wrapper>
-                            <md-tabs-dummy-wrapper class="_md-visually-hidden md-dummy-wrapper">
-                                <!-- ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-dummy-tab class="md-tab ng-scope ng-isolate-scope" tabindex="-1" id="tab-item-1"
-                                              role="tab" aria-controls="tab-content-1" aria-selected="true"
-                                              aria-disabled="false" ng-focus="$mdTabsCtrl.hasFocus = true"
-                                              ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs"
-                                              md-tabs-template="::tab.label" md-scope="::tab.parent">
-                                    <span class="dashboard-topics__title ng-scope">Topic Library</span>
-                                </md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-dummy-tab class="md-tab ng-scope ng-isolate-scope" tabindex="-1" id="tab-item-2"
-                                              role="tab" aria-controls="tab-content-2" aria-selected="false"
-                                              aria-disabled="false" ng-focus="$mdTabsCtrl.hasFocus = true"
-                                              ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs"
-                                              md-tabs-template="::tab.label" md-scope="::tab.parent">
-                                    <span class="dashboard-topics__title ng-scope">Badges (0)</span>
-                                </md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --> </md-tabs-dummy-wrapper>
-                        </md-tabs-canvas>
+
+                        </div>
                     </md-tabs-wrapper>
-                    <md-tabs-content-wrapper ng-show="$mdTabsCtrl.hasContent &amp;&amp; $mdTabsCtrl.selectedIndex >= 0"
-                                             class="_md" aria-hidden="false">
-                        <!-- ngRepeat: (index, tab) in $mdTabsCtrl.tabs --><!-- ngIf: $mdTabsCtrl.hasContent -->
-                        <md-tab-content id="tab-content-1" class="_md ng-scope md-active md-no-scroll" role="tabpanel"
-                                        aria-labelledby="tab-item-1"
-                                        md-swipe-left="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(1)"
-                                        md-swipe-right="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(-1)"
-                                        ng-if="$mdTabsCtrl.hasContent" ng-repeat="(index, tab) in $mdTabsCtrl.tabs"
-                                        ng-class="{ 'md-no-transition': $mdTabsCtrl.lastSelectedIndex == null, 'md-active':        tab.isActive(), 'md-left':          tab.isLeft(), 'md-right':         tab.isRight(), 'md-no-scroll':     $mdTabsCtrl.dynamicHeight }">
-                            <!-- ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() -->
-                            <div md-tabs-template="::tab.template" md-connected-if="tab.isActive()"
-                                 md-scope="::tab.parent" ng-if="$mdTabsCtrl.enableDisconnect || tab.shouldRender()"
-                                 class="ng-scope ng-isolate-scope">
+
+                    <md-tabs-content-wrapper class="_md  tab-content">
+
+                        <div id="tab-content-1" class="_md ng-scope   md-no-scroll tab-pane active"
+                             role="tabpanel">
+
+                            <div class="ng-scope ng-isolate-scope">
                                 <section class="dashboard-topics__in-progress ng-scope">
                                     <md-card class="dashboard-topic__card _md" style="
     width: 100%;
@@ -531,7 +486,7 @@
                                                 <md-card-actions layout="row" layout-align="end center"
                                                                  class="dashboard-topic__action layout-align-end-center layout-row">
 
-                                                    <a class="md-button" href="/lesson/30">
+                                                    <a class="md-button" href="#">
                                                         Explore
                                                     </a>
 
@@ -587,7 +542,7 @@
                                                 <md-card-actions layout="row" layout-align="end center"
                                                                  class="dashboard-topic__action layout-align-end-center layout-row">
 
-                                                    <a class="md-button" href="/lesson/30">
+                                                    <a class="md-button" href="#">
                                                         Explore
                                                     </a>
 
@@ -625,7 +580,7 @@
                                                 <md-card-actions layout="row" layout-align="end center"
                                                                  class="dashboard-topic__action layout-align-end-center layout-row">
 
-                                                    <a class="md-button" href="/lesson/46">
+                                                    <a class="md-button" href="#/46">
                                                         Explore
                                                     </a>
 
@@ -663,7 +618,7 @@
                                                 <md-card-actions layout="row" layout-align="end center"
                                                                  class="dashboard-topic__action layout-align-end-center layout-row">
 
-                                                    <a class="md-button" href="/lesson/54">
+                                                    <a class="md-button" href="#/54">
                                                         Explore
                                                     </a>
 
@@ -701,7 +656,7 @@
                                                 <md-card-actions layout="row" layout-align="end center"
                                                                  class="dashboard-topic__action layout-align-end-center layout-row">
 
-                                                    <a class="md-button" href="/lesson/62">
+                                                    <a class="md-button" href="#/62">
                                                         Explore
                                                     </a>
 
@@ -739,7 +694,7 @@
                                                 <md-card-actions layout="row" layout-align="end center"
                                                                  class="dashboard-topic__action layout-align-end-center layout-row">
 
-                                                    <a class="md-button" href="/lesson/73">
+                                                    <a class="md-button" href="#/73">
                                                         Explore
                                                     </a>
 
@@ -777,7 +732,7 @@
                                                 <md-card-actions layout="row" layout-align="end center"
                                                                  class="dashboard-topic__action layout-align-end-center layout-row">
 
-                                                    <a class="md-button" href="/lesson/81">
+                                                    <a class="md-button" href="#/81">
                                                         Explore
                                                     </a>
 
@@ -815,7 +770,7 @@
                                                 <md-card-actions layout="row" layout-align="end center"
                                                                  class="dashboard-topic__action layout-align-end-center layout-row">
 
-                                                    <a class="md-button" href="/lesson/108">
+                                                    <a class="md-button" href="#/108">
                                                         Explore
                                                     </a>
 
@@ -828,19 +783,12 @@
                                 </section>
 
 
-                            </div><!-- end ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() -->
-                        </md-tab-content><!-- end ngIf: $mdTabsCtrl.hasContent -->
-                        <!-- end ngRepeat: (index, tab) in $mdTabsCtrl.tabs --><!-- ngIf: $mdTabsCtrl.hasContent -->
-                        <md-tab-content id="tab-content-2" class="_md ng-scope md-right md-no-scroll" role="tabpanel"
-                                        aria-labelledby="tab-item-2"
-                                        md-swipe-left="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(1)"
-                                        md-swipe-right="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(-1)"
-                                        ng-if="$mdTabsCtrl.hasContent" ng-repeat="(index, tab) in $mdTabsCtrl.tabs"
-                                        ng-class="{ 'md-no-transition': $mdTabsCtrl.lastSelectedIndex == null, 'md-active':        tab.isActive(), 'md-left':          tab.isLeft(), 'md-right':         tab.isRight(), 'md-no-scroll':     $mdTabsCtrl.dynamicHeight }">
-                            <!-- ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() -->
-                            <div md-tabs-template="::tab.template" md-connected-if="tab.isActive()"
-                                 md-scope="::tab.parent" ng-if="$mdTabsCtrl.enableDisconnect || tab.shouldRender()"
-                                 class="ng-scope ng-isolate-scope">
+                            </div>
+                        </div>
+                        <div id="tab-content-2" class="_md ng-scope md-right md-no-scroll tab-pane" role="tabpanel"
+                             aria-labelledby="tab-item-2">
+
+                            <div class="ng-scope ng-isolate-scope">
                                 <md-card class="ng-scope _md">
                                     <section class="dashboard-topics__badges-card">
 
@@ -1082,9 +1030,11 @@
                                     </section>
                                 </md-card>
                             </div><!-- end ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() -->
-                        </md-tab-content><!-- end ngIf: $mdTabsCtrl.hasContent -->
-                        <!-- end ngRepeat: (index, tab) in $mdTabsCtrl.tabs --> </md-tabs-content-wrapper>
+                        </div>
+
+                    </md-tabs-content-wrapper>
                 </md-tabs>
+
                 <md-card class="dashboard-certification _md">
 
                     <section class="dashboard-certification__content">
@@ -1395,11 +1345,6 @@
 </div>
 
 
-<script nonce="76c878f0bdd575adfe60c91f505fdb79" type="text/javascript">
-    //Survey data
-</script>
-
-
 <script src="./js/jquery.min.js"></script>
 
 <script src="./js/bootstrap.min.js"></script>
@@ -1407,29 +1352,6 @@
 <script src="./js/vendor.js"></script>
 
 <script src="./js/main.js"></script>
-
-<!-- GTM Analytics. -->
-
-
-<!-- Google Tag Manager -->
-<script nonce="76c878f0bdd575adfe60c91f505fdb79" type="text/javascript">
-    dataLayer = [{
-        'gtm.blacklist': ['nonGoogleScripts', 'nonGooglePixels', 'customScripts', 'customPixels']
-    }];
-</script>
-<noscript nonce="76c878f0bdd575adfe60c91f505fdb79">&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-56V5CJ"
-    height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
-<script nonce="76c878f0bdd575adfe60c91f505fdb79">(function (w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
-    var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l !== 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-})(window, document, 'script', 'dataLayer', 'GTM-56V5CJ');</script>
-<!-- End Google Tag Manager -->
 
 
 </body>
