@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)#digitalskills.withgoogle.com/ -->
+<html lang="en" itemscope="" itemtype="http://schema.org/Organization">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="assets/slick/slick.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="page-wrapper js-page-wrapper homepage ng-scope flexwrap">
+    <div class="gbl-header-wrapper ">
+
+        <div class=" sidenav" id="mySidenav">
+            <div class="md-sidenav"
+                 class="main-sidenav main-sidenav__logged-out whiteframe-z4 _md-closed ng-isolate-scope _md"
+                 tabindex="-1">
+                <md-content class="main-sidenav__content _md md-no-flicker">
+                    <div class="main-sidenav__inner">
+                        <md-toolbar class="md-accent main-sidenav__toolbar _md _md-toolbar-transitions">
+                            <div class="zone zone--one">
+
+                                <a href="#digitalskills.withgoogle.com/" class="main-sidenav__logo">
+                                    <img class="main-sidenav__logo--image"
+                                         src="./image/unnamed.png"
+                                         alt="Home - Digital Skills for Africa"
+                                         aria-label="Home - Digital Skills for Africa">
+                                </a>
+
+                            </div>
+                            <div class="zone zone--two main-sidenav__close">
+                                <button class="action-close main-sidenav__action-close" onclick="closeNav()"
+                                        aria-label="Close Main Menu"><i class="material-icons icon--close"></i></button>
+                            </div>
+                        </md-toolbar>
+
+                        <nav class="main-sidenav__list" toggle-active-link-directive="">
+
+
+                            <div class="main-sidenav__action-ctn">
+                                <button class="md-button md-default-theme main-sidenav__action-start action-start md-primary md-raised md-button ng-isolate-scope md-ink-ripple"
+                                        type="button" myg-dialog-sign-up=""
+                                        dialog-sign-up-template="global-signup-dialog" aria-label="Start learning">Start
+                                    learning
+                                </button>
+                            </div>
+
+                            <a href="#digitalskills.withgoogle.com/dash"
+                               class="main-sidenav__link js-main-sidenav__link main-sidenav__action-signin"
+                               ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--account_circle main-nav__icon"></i>
+                                <span>Sign in</span>
+                            </a>
+
+                            <hr class="main-sidenav__divider main-sidenav__divider--logged-out">
+
+                            <a href="#digitalskills.withgoogle.com/"
+                               class="main-sidenav__link js-main-sidenav__link is-active"
+                               ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--home main-nav__icon"></i>
+                                <span>Home</span>
+                            </a>
+
+
+                            <a href="#digitalskills.withgoogle.com/topic-library"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--library_books main-nav__icon"></i>
+                                <span>Topic Library</span>
+                            </a>
+
+
+                            <hr class="main-sidenav__divider">
+
+
+                            <a href="#digitalskills.withgoogle.com/tools"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--work main-nav__icon"></i>
+                                <span>Tools</span>
+                            </a>
+
+
+                            <a href="#digitalskills.withgoogle.com/f2f"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--insert_invitation main-nav__icon"></i>
+                                <span>Face to Face</span>
+                            </a>
+
+
+                            <a href="#digitalskills.withgoogle.com/partners"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--people main-nav__icon"></i>
+                                <span>Partners</span>
+                            </a>
+
+
+                            <a href="#digitalskills.withgoogle.com/faqs"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--help main-nav__icon"></i>
+                                <span>Help &amp; FAQs</span>
+                            </a>
+
+
+                            <a href="#digitalskills.withgoogle.com/contact"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--chat_bubble main-nav__icon"></i>
+                                <span>Contact</span>
+                            </a>
+
+
+                            <hr class="main-sidenav__divider">
+
+
+                            <a href="http://www.google.com/business" target="_blank"
+                               class="main-sidenav__link js-main-sidenav__link js-link--external"
+                               ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--thumb_up main-nav__icon"></i>
+                                <span>Google My Business</span>
+                                <i class="material-icons icon--launch"></i>
+                            </a>
+
+
+                        </nav>
+                    </div>
+
+
+                    <div class="main-sidenav__action-ctn">
+                        <a class="main-sidenav__action-start action-start md-primary md-raised md-button md-ink-ripple"
+                           href="#digitalskills.withgoogle.com/create-your-plan"
+                           aria-label="Sign in">Sign in</a>
+                    </div>
+
+                </md-content>
+            </div>
+        </div>
+
+        <header class="gbl-header main-header main-header--logged-out js-gbl-header ng-scope"
+                ng-controller="HeaderController as header">
+            <div class="zone zone--one">
+                <button class="main-header__action-toggle action-toggle md-button md-ink-ripple" type="button"
+                        onclick="openNav()" aria-label="Header Main Menu">
+                    <i class="main-header__icon-menu action-icon ng-scope">
+                        <svg fill="#757575" height="24" viewBox="0 0 24 24" width="24"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                        </svg>
+                    </i>
+                </button>
+
+                <div class="main-header__logos ">
+                    <a href="#digitalskills.withgoogle.com/" class="main-header__logo">
+                        <img class="main-header__logo--image"
+                             src="./image/unnamed.png"
+                             alt="Home - Digital Skills for Africa" aria-label="Home - Digital Skills for Africa">
+                    </a>
+
+
+                </div>
+            </div>
+
+            <div class="zone zone--three">
+                <div class="main-header__goog-logo">
+                    <img class="gbl-partner__primary"
+                         src="./image/grey_google_logo_image_url.png"
+                         alt="Google" aria-label="Google">
+                </div>
+            </div>
+        </header>
+
+        <div class="sub-header-nav main-header--logged-out ng-scope">
+            <div class="zone zone--one">
+                <div class=" md-nav-bar header-nav ng-isolate-scope current-nav-home">
+                    <div class="md-nav-bar">
+                        <nav role="navigation">
+                            <ul class="_md-nav-bar-list layout-row" layout="row" role="listbox"
+                                tabindex="0">
+
+
+                                <li class="sub-header-nav__link md-nav-item ng-scope ng-isolate-scope" role="option"
+                                    aria-selected="true"><a
+                                        class="_md-nav-button md-accent md-button ng-scope md-ink-ripple md-active md-primary"
+                                        href="index.html">
+                                    <span class="_md-nav-button-text ng-scope">
+                    Home
+                </span>
+                                </a>
+                                </li>
+
+
+                                <li class="sub-header-nav__link md-nav-item ng-scope ng-isolate-scope" role="option"
+                                    aria-selected="false" md-nav-href="/topic-library" name="topic-library">
+                                    <!-- ngIf: ctrl.mdNavSref --><!-- ngIf: ctrl.mdNavHref --><a
+                                        class="_md-nav-button md-accent md-button ng-scope md-ink-ripple md-unselected"
+                                        ng-if="ctrl.mdNavHref" ng-class="ctrl.getNgClassMap()"
+                                        tabindex="-1" ng-href="/topic-library" aria-label="Topic Library"
+                                        href="topic-library.html"><span
+                                        class="_md-nav-button-text ng-scope">
+                Topic Library
+            </span></a></li>
+
+
+                                <li class="sub-header-nav__link md-nav-item ng-scope ng-isolate-scope" role="option"
+                                    aria-selected="false" md-nav-href="/partners" name="partners"> 
+                                    <a
+                                        class="_md-nav-button md-accent md-button ng-scope md-ink-ripple md-unselected"
+                                        
+                                        href="partners.html"><span
+                                        class="_md-nav-button-text ng-scope">
+                    Partners
+                </span></a></li>
+
+
+                             
+                            </ul>
+                        </nav>
+                        <md-nav-ink-bar style="left: 12px; width: 73px;"></md-nav-ink-bar>
+                    </div>
+                </div>
+                <md-menu class="more-menu sub-header-nav__link md-menu ng-scope _md" md-offset="0 62">
+                    <button class="more-menu-trigger md-button md-ink-ripple dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" type="button"
+                            aria-haspopup="true" aria-label="More
+                arrow_drop_down" aria-expanded="false" aria-owns="menu_container_0">
+                        <span class="ng-scope">More</span>
+                        <i class="material-icons icon--arrow_drop_down ng-scope">arrow_drop_down</i>
+                    </button>
+
+
+                    <div class="_md _md-open-menu-container md-whiteframe-z2 dropdown-menu" id="menu_container_0"
+                         aria-hidden="true">
+                        <md-menu-content class="more-menu-items" width="3" role="menu">
+                            <md-menu-item>
+                                <a class="menu-nav__link md-button md-ink-ripple"
+                                   role="menuitem" aria-label="Tools" href="#digitalskills.withgoogle.com/tools">
+                                    <!-- <i class="material-icons icon--work main-nav__icon">work</i> -->
+                                    <span class="ng-scope">Tools</span>
+                                </a>
+                            </md-menu-item>
+
+
+                            <md-menu-divider role="separator"></md-menu-divider>
+
+
+                            <md-menu-item>
+                                <a class="menu-nav__link md-button md-ink-ripple" ng-href="/faqs"
+                                   role="menuitem" aria-label="Help &amp; FAQs"
+                                   href="#digitalskills.withgoogle.com/faqs">
+                                    <!-- <i class="material-icons icon--help main-nav__icon">help</i> -->
+                                    <span class="ng-scope">Help &amp; FAQs</span>
+                                </a>
+                            </md-menu-item>
+
+
+                            <md-menu-item>
+                                <a class="menu-nav__link md-button md-ink-ripple" ng-href="/contact"
+                                   role="menuitem" aria-label="Contact"
+                                   href="#digitalskills.withgoogle.com/contact">
+                                    <!-- <i class="material-icons icon--chat_bubble main-nav__icon">chat_bubble</i> -->
+                                    <span class="ng-scope">Contact</span>
+                                </a>
+                            </md-menu-item>
+
+
+                            <md-menu-item>
+                                <a class="menu-nav__link js-link--external md-button md-ink-ripple"
+                                   ng-href="http://www.google.com/business" target="_blank" role="menuitem"
+                                   aria-label="Google My Business
+                            launch" href="http://www.google.com/business">
+                                    <!-- <i class="material-icons icon--thumb_up main-nav__icon">thumb_up</i> -->
+                                    <span class="ng-scope">Google My Business</span>
+                                    <i class="material-icons icon--launch ng-scope">launch</i>
+                                </a>
+                            </md-menu-item>
+
+
+                        </md-menu-content>
+                    </div>
+                </md-menu>
+            </div>
+
+            <div class="zone zone--three">
+                <div class="main-header__actions">
+
+
+                    <a class="md-button md-accent md-default-theme main-header__action main-header__action-signin md-button md-ink-ripple"
+                       id="CTA_Login_topRight_txt" href="signin.html"
+                       aria-label="Sign in">
+                        <span class="js-header-cta-login ng-scope">Sign in</span>
+                    </a>
+
+
+                    <a class="md-button md-primary md-raised md-default-theme main-header__action main-header__action-start md-button md-ink-ripple"
+                       id="CTA_StartLearning_topRight_btn"
+                       href="#digitalskills.withgoogle.com/create-your-plan" aria-label="Start learning">
+
+                        <span class="js-header-cta-start-learning ng-scope">Start learning</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper ng-isolate-scope" myg-scrolled-into-view="" myg-scrolled-into-view-target="js-mission-section"
+         myg-scrolled-into-view-class="js-page-wrapper--page-scrolled" myg-scrolled-into-view-ignore="js-gbl-header">
+
+        <!--CONTENT-->
+
+        <!-- HERO -->
+        <div class="hero-banner hero-banner--description-large hero-banner--light hero-banner--mobile-image-enabled cms-image__homepage-hero">
+            <div class="hero-banner__content">
+                <h1 class="hero-banner__intro-title">Make the most of the web.</h1>
+                <p class="hero-banner__subtext">Get the digital skills you need to grow your business, your career or
+                    just your confidence. We'll set you up with a personal learning plan, completely free.</p>
+                <div class="hero-banner__actions">
+
+
+                    <a id="CTA_StartLearning_midLeft_btn" class="hero-banner__action button--large md-primary md-raised"
+                       href="#digitalskills.withgoogle.com/create-your-plan">
+
+                        <span class="js-homepage-cta-hero-start-learning">Start Learning</span>
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- MISSION STATEMENT -->
+        <div class="section mission js-mission-section js-page-wrapper--page-scrolled">
+            <button class="mission__fab button--fab md-fab md-primary md-button ng-isolate-scope md-ink-ripple"
+                    type="button" myg-scroll-to="" myg-scroll-to-target="js-mission-section"
+                    aria-label="Jump to mission statement">
+                <i class="material-icons icon--expand_more fab-icon action-icon ng-scope" role="presentation"></i>
+            </button>
+            <div class="mission__inner">
+                <h2 class="mission__title">What is Digital Skills for Africa?</h2>
+                <p class="mission__statement">Free tutorials to help you succeed online, from social media to search
+                    engines and beyond.</p>
+            </div>
+        </div>
+
+
+        <!-- AWARDS -->
+        <div class="section awards">
+            <h2 class="section__label">An award winning platform</h2>
+            <div class="awards-carousel__ctn">
+                <myg-slick-carousel class="awards-carousel ng-isolate-scope slick-initialized slick-slider">
+                    <!--<button type="button" class="slick-prev slick-arrow" aria-label="scroll right" style="">scroll-->
+                    <!--right-->
+                    <!--</button>-->
+
+
+                    <div aria-live="polite" class="slick-list draggable">
+                        <div class="slick-track2" role="listbox">
+                            <div class="awards-slide" data-slick-index="-4" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/fL5ZEtJDK5wEB26-QCJMFPfW1BXxwjSod_z87dhkR9qoPf--cVMTHKkpGSQUwgqsWaPyqPYm4HXZUs24ITJnOFI=s0"
+                                                     alt="UK Digital Experience Award  Customer Experience Innovation"
+                                                     aria-label="UK Digital Experience Award  Customer Experience Innovation"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                UK Digital Experience Award
+                                                <br>
+                                                Customer Experience Innovation
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide" data-slick-index="-3" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/V8A-wrYN8I0pGHECPHeG8zYJLRGJ3_nECi-GfvejQs-sv5fsHldGTfX9qXstsS6y8jwMdJ-FvkhzIiHXnOb_vzU=s0"
+                                                     alt="Digiday Awards Europe Best Audience Development Platform"
+                                                     aria-label="Digiday Awards Europe Best Audience Development Platform"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                Digiday Awards Europe
+                                                <br>
+                                                Best Audience Development Platform
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide" data-slick-index="-2" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/iY8PxcoVifqCldpnnGP8fFg-E4ErWfp4GuGIz_enwZ5CzlUBQPOOPMqCJeNHWbm34NFtJT_kC9DiW4X5ieXfpoQ=s0"
+                                                     alt="Digiday Awards Europe B2B Campaign of the Year"
+                                                     aria-label="Digiday Awards Europe B2B Campaign of the Year"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                Digiday Awards Europe
+                                                <br>
+                                                B2B Campaign of the Year
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide" data-slick-index="-1" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/k1Ado2FWfK-5yG3q_ac0hlStYPDxwg4wNQYSYeKTxcYj0cIXjoZ7pXDziz0CEwf2iFG2Mb4YvdmGY46O-rQxfx8=s0"
+                                                     alt="Czech Internet Award Marketing Inspiration 2016 - Silver Award"
+                                                     aria-label="Czech Internet Award Marketing Inspiration 2016 - Silver Award"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                Czech Internet Award
+                                                <br>
+                                                Marketing Inspiration 2016 - Silver Award
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide slick-current slick-active" data-slick-index="0"
+                                 aria-hidden="false" style="width: 330px;" tabindex="-1" role="option">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/VZ7EYNx8GzEAhfz3iAYMto_dNDPoHmI9QCdQsbde9RDzEM9Gw2rWUVeNJDFLONYJsgR5r7RM5qXekV97FxDp1w8-=s0"
+                                                     alt="European Commission  Digital Skills Award 2016"
+                                                     aria-label="European Commission  Digital Skills Award 2016"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                European Commission
+                                                <br>
+                                                Digital Skills Award 2016
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide slick-active" data-slick-index="1" aria-hidden="false"
+                                 style="width: 330px;" tabindex="-1" role="option">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/HI3XKyW_q1hiwI7-oW8-gOO8yx-wmVNu6MPXLaXOQ7o6RDvdDn4HKcjfrC8RR1ookOA-qPv9ZKla0wmuRAJDiJ8=s0"
+                                                     alt="Marcom Platinum Award  Economic Development"
+                                                     aria-label="Marcom Platinum Award  Economic Development"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                Marcom Platinum Award
+                                                <br>
+                                                Economic Development
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide slick-active" data-slick-index="2" aria-hidden="false"
+                                 style="width: 330px;" tabindex="-1" role="option">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/OcPFbGrohSAxANZxnv5O57E8AADALPKyJ9iSoXXp7xvnQnmWOtCWw5NfM0Nzah78KVInMka-8El_hq4j73LTrJg=s0"
+                                                     alt="Marcom Gold Award  App for Training/Learning"
+                                                     aria-label="Marcom Gold Award  App for Training/Learning"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                Marcom Gold Award
+                                                <br>
+                                                App for Training/Learning
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide slick-active" data-slick-index="3" aria-hidden="false"
+                                 style="width: 330px;" tabindex="-1" role="option">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/fL5ZEtJDK5wEB26-QCJMFPfW1BXxwjSod_z87dhkR9qoPf--cVMTHKkpGSQUwgqsWaPyqPYm4HXZUs24ITJnOFI=s0"
+                                                     alt="UK Digital Experience Award  Customer Experience Innovation"
+                                                     aria-label="UK Digital Experience Award  Customer Experience Innovation"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                UK Digital Experience Award
+                                                <br>
+                                                Customer Experience Innovation
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide" data-slick-index="4" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1" role="option">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/V8A-wrYN8I0pGHECPHeG8zYJLRGJ3_nECi-GfvejQs-sv5fsHldGTfX9qXstsS6y8jwMdJ-FvkhzIiHXnOb_vzU=s0"
+                                                     alt="Digiday Awards Europe Best Audience Development Platform"
+                                                     aria-label="Digiday Awards Europe Best Audience Development Platform"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                Digiday Awards Europe
+                                                <br>
+                                                Best Audience Development Platform
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide" data-slick-index="5" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1" role="option">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/iY8PxcoVifqCldpnnGP8fFg-E4ErWfp4GuGIz_enwZ5CzlUBQPOOPMqCJeNHWbm34NFtJT_kC9DiW4X5ieXfpoQ=s0"
+                                                     alt="Digiday Awards Europe B2B Campaign of the Year"
+                                                     aria-label="Digiday Awards Europe B2B Campaign of the Year"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                Digiday Awards Europe
+                                                <br>
+                                                B2B Campaign of the Year
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide" data-slick-index="6" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1" role="option">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/k1Ado2FWfK-5yG3q_ac0hlStYPDxwg4wNQYSYeKTxcYj0cIXjoZ7pXDziz0CEwf2iFG2Mb4YvdmGY46O-rQxfx8=s0"
+                                                     alt="Czech Internet Award Marketing Inspiration 2016 - Silver Award"
+                                                     aria-label="Czech Internet Award Marketing Inspiration 2016 - Silver Award"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                Czech Internet Award
+                                                <br>
+                                                Marketing Inspiration 2016 - Silver Award
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide" data-slick-index="7" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/VZ7EYNx8GzEAhfz3iAYMto_dNDPoHmI9QCdQsbde9RDzEM9Gw2rWUVeNJDFLONYJsgR5r7RM5qXekV97FxDp1w8-=s0"
+                                                     alt="European Commission  Digital Skills Award 2016"
+                                                     aria-label="European Commission  Digital Skills Award 2016"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                European Commission
+                                                <br>
+                                                Digital Skills Award 2016
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide" data-slick-index="8" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/HI3XKyW_q1hiwI7-oW8-gOO8yx-wmVNu6MPXLaXOQ7o6RDvdDn4HKcjfrC8RR1ookOA-qPv9ZKla0wmuRAJDiJ8=s0"
+                                                     alt="Marcom Platinum Award  Economic Development"
+                                                     aria-label="Marcom Platinum Award  Economic Development"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                Marcom Platinum Award
+                                                <br>
+                                                Economic Development
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide" data-slick-index="9" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/OcPFbGrohSAxANZxnv5O57E8AADALPKyJ9iSoXXp7xvnQnmWOtCWw5NfM0Nzah78KVInMka-8El_hq4j73LTrJg=s0"
+                                                     alt="Marcom Gold Award  App for Training/Learning"
+                                                     aria-label="Marcom Gold Award  App for Training/Learning"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                Marcom Gold Award
+                                                <br>
+                                                App for Training/Learning
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="awards-slide slick-slide" data-slick-index="10" aria-hidden="true"
+                                 style="width: 330px;" tabindex="-1">
+                                <div class="awards-slide__contents">
+                                    <div class="awards-slide__inner">
+                                        <div class="awards-slide__img-ctn">
+                                            <picture>
+                                                <img class="awards-slide__img"
+                                                     src="./image/fL5ZEtJDK5wEB26-QCJMFPfW1BXxwjSod_z87dhkR9qoPf--cVMTHKkpGSQUwgqsWaPyqPYm4HXZUs24ITJnOFI=s0"
+                                                     alt="UK Digital Experience Award  Customer Experience Innovation"
+                                                     aria-label="UK Digital Experience Award  Customer Experience Innovation"
+                                                     aria-role="presentation" aria-hidden="true" width="100%"
+                                                     height="100%">
+                                            </picture>
+                                        </div>
+                                        <div class="awards-slide__text-ctn">
+                                            <p class="awards-slide__text">
+                                                UK Digital Experience Award
+                                                <br>
+                                                Customer Experience Innovation
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--<button type="button" class="slick-next slick-arrow" aria-label="scroll left" style="">scroll left-->
+                    <!--</button>-->
+                </myg-slick-carousel>
+            </div>
+        </div>
+
+
+        <!-- HOW IT WORKS -->
+        <div class="section how-it-works" role="toolbar">
+            <h2 class="section__label">How It Works</h2>
+
+            <div class="hiw-carousel ng-isolate-scope slick-initialized slick-slider slick-dotted"
+            >
+                <!--<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous"-->
+                <!--role="button" style="">Previous-->
+                <!--</button>-->
+                <div aria-live="polite" class="slick-list draggable">
+                    <div class="slick-track"
+                         role="listbox">
+                        <div class="hiw-slide " data-slick-index="-1" aria-hidden="true"
+                             style="width: 1349px;" tabindex="-1">
+                            <div class="hiw-slide__contents">
+                                <span class="hiw-slide__placeholder"></span>
+                                <div class="hiw-slide__inner">
+                                    <h3 class="hiw-slide__heading">Keep going!</h3>
+                                    <div class="hiw-slide__img-ctn">
+                                        <picture>
+
+                                            <img class="hiw-slide__img"
+                                                 src="./image/y-H28G3AdSu3GlyH02iTS_OZBv_CzA-UL-3cumDdCFMOmOMxrgazqF4CKrHvGFPyxSwGDGFB194ujjKZuy9Agygp=s0"
+                                                 alt="" aria-role="presentation" aria-hidden="true" width="100%"
+                                                 height="100%">
+                                        </picture>
+                                    </div>
+                                    <p class="hiw-slide__text">Explore many ways to grow your business and gain new
+                                        customers. You can even get certified by completing all topics.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hiw-slide slick-current slick-active" data-slick-index="0" aria-hidden="true"
+                             style="width: 1349px;" tabindex="-1" role="option" aria-describedby="slick-slide10">
+                            <div class="hiw-slide__contents">
+                                <span class="hiw-slide__placeholder"></span>
+                                <div class="hiw-slide__inner">
+                                    <h3 class="hiw-slide__heading">Set your goals</h3>
+                                    <div class="hiw-slide__img-ctn">
+                                        <picture>
+
+                                            <img class="hiw-slide__img"
+                                                 src="./image/dYXeMFcOGDCdfQza7MDykJ8qLT9YjrQyfbT6SKaaXAx1UkgtAJ0Wm_ymVh4qGIjYMGXOfx4Spho26tB2530cxOc=s0"
+                                                 alt="" aria-role="presentation" aria-hidden="true" width="100%"
+                                                 height="100%">
+                                        </picture>
+                                    </div>
+                                    <p class="hiw-slide__text">Create a learning plan that's right for you-whether you
+                                        want to sell online, reach more people on social media, or simply get your work
+                                        noticed.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hiw-slide slick-slide" data-slick-index="1" aria-hidden="true"
+                             style="width: 1349px;" tabindex="-1" role="option" aria-describedby="slick-slide11">
+                            <div class="hiw-slide__contents">
+                                <span class="hiw-slide__placeholder"></span>
+                                <div class="hiw-slide__inner">
+                                    <h3 class="hiw-slide__heading">Learn from experience</h3>
+                                    <div class="hiw-slide__img-ctn">
+                                        <picture>
+
+                                            <img class="hiw-slide__img"
+                                                 src="./image/y1u8dLVcxvDZRDnm6qkWNoDibXDOwNsJbIrWrsPLaxh_4psnVVmlWK3UTniim_twwjb1Mf-EzbvAegFqRxohi1I=s0"
+                                                 alt="" aria-role="presentation" aria-hidden="true" width="100%"
+                                                 height="100%">
+                                        </picture>
+                                    </div>
+                                    <p class="hiw-slide__text">Watch video tutorials from everyday experts who've been
+                                        in your shoes, or come visit us in one of our physical "garages" for
+                                        face-to-face training and mentoring.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hiw-slide " data-slick-index="2"
+                             aria-hidden="false" style="width: 1349px;" tabindex="-1" role="option"
+                             aria-describedby="slick-slide12">
+                            <div class="hiw-slide__contents">
+                                <span class="hiw-slide__placeholder"></span>
+                                <div class="hiw-slide__inner">
+                                    <h3 class="hiw-slide__heading">Apply your knowledge</h3>
+                                    <div class="hiw-slide__img-ctn">
+                                        <picture>
+
+                                            <img class="hiw-slide__img"
+                                                 src="./image/4DVwS0s53tu3MfOMq04Urw_b9mVfe4Erc0tmTdXUkqgc1PCnhI0B1DH2pUtegwv7nnScFM9DsI_EXt5OfYiIWDOE=s0"
+                                                 alt="" aria-role="presentation" aria-hidden="true" width="100%"
+                                                 height="100%">
+                                        </picture>
+                                    </div>
+                                    <p class="hiw-slide__text">Test what you've learned and get practical tips for
+                                        applying your new skills to help your business grow.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hiw-slide slick-slide" data-slick-index="3" aria-hidden="true"
+                             style="width: 1349px;" tabindex="-1" role="option" aria-describedby="slick-slide13">
+                            <div class="hiw-slide__contents">
+                                <span class="hiw-slide__placeholder"></span>
+                                <div class="hiw-slide__inner">
+                                    <h3 class="hiw-slide__heading">Track your progress</h3>
+                                    <div class="hiw-slide__img-ctn">
+                                        <picture>
+
+                                            <img class="hiw-slide__img"
+                                                 src="./image/scfp_MPfhCXw3U4fAX9tuoziV9FpBySNbzsSBTSzAA8Em8wT0-cmWWIXEsOgK8vQSGN5ku3mD6xseq-Y7Am6uEM=s0"
+                                                 alt="" aria-role="presentation" aria-hidden="true" width="100%"
+                                                 height="100%">
+                                        </picture>
+                                    </div>
+                                    <p class="hiw-slide__text">Your personal dashboard will help keep you motivated and
+                                        on track-not to mention entertained.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hiw-slide slick-slide" data-slick-index="4" aria-hidden="true"
+                             style="width: 1349px;" tabindex="-1" role="option" aria-describedby="slick-slide14">
+                            <div class="hiw-slide__contents">
+                                <span class="hiw-slide__placeholder"></span>
+                                <div class="hiw-slide__inner">
+                                    <h3 class="hiw-slide__heading">Keep going!</h3>
+                                    <div class="hiw-slide__img-ctn">
+                                        <picture>
+
+                                            <img class="hiw-slide__img"
+                                                 src="./image/y-H28G3AdSu3GlyH02iTS_OZBv_CzA-UL-3cumDdCFMOmOMxrgazqF4CKrHvGFPyxSwGDGFB194ujjKZuy9Agygp=s0"
+                                                 alt="" aria-role="presentation" aria-hidden="true" width="100%"
+                                                 height="100%">
+                                        </picture>
+                                    </div>
+                                    <p class="hiw-slide__text">Explore many ways to grow your business and gain new
+                                        customers. You can even get certified by completing all topics.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hiw-slide" data-slick-index="5" aria-hidden="true"
+                             style="width: 1349px;" tabindex="-1">
+                            <div class="hiw-slide__contents">
+                                <span class="hiw-slide__placeholder"></span>
+                                <div class="hiw-slide__inner">
+                                    <h3 class="hiw-slide__heading">Set your goals</h3>
+                                    <div class="hiw-slide__img-ctn">
+                                        <picture>
+
+                                            <img class="hiw-slide__img"
+                                                 src="./image/dYXeMFcOGDCdfQza7MDykJ8qLT9YjrQyfbT6SKaaXAx1UkgtAJ0Wm_ymVh4qGIjYMGXOfx4Spho26tB2530cxOc=s0"
+                                                 alt="" aria-role="presentation" aria-hidden="true" width="100%"
+                                                 height="100%">
+                                        </picture>
+                                    </div>
+                                    <p class="hiw-slide__text">Create a learning plan that's right for you-whether you
+                                        want to sell online, reach more people on social media, or simply get your work
+                                        noticed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- TESTIMONIALS -->
+
+
+        <div class="section testimonials">
+            <h2 class="section__label testimonials__title-text">Testimonials</h2>
+            <md-tabs class="testimonials__tabs  md-dynamic-height">
+                <md-tabs-wrapper>
+
+                    <div class="md-tabs-canvas" tabindex="0"
+                         role="tablist" class="md-center-tabs">
+                        <md-pagination-wrapper class="md-center-tabs nav nav-tabs"
+                                               style="width: 359px;">
+                            <a class="md-tab ng-scope ng-isolate-scope md-ink-ripple  "
+                               role="tab" data-toggle="tab" href="#tab-content-1">Alex
+                            </a>
+                            <a class="md-tab ng-scope ng-isolate-scope md-ink-ripple"
+                               role="tab" data-toggle="tab" href="#tab-content-2">Chebet
+                            </a>
+                            <a class="md-tab ng-scope ng-isolate-scope md-ink-ripple"
+                               role="tab" data-toggle="tab" href="#tab-content-3">Idris
+                            </a>
+                            <a class="md-tab ng-scope ng-isolate-scope md-ink-ripple"
+                               role="tab" data-toggle="tab" href="#tab-content-4">Tomi
+                            </a>
+                        </md-pagination-wrapper>
+
+                    </div>
+                </md-tabs-wrapper>
+                <md-tabs-content-wrapper class="_md tab-content">
+
+                    <div id="tab-content-1" class="_md ng-scope md-active md-no-scroll tab-pane active" role="tabpanel"
+                         aria-labelledby="tab-item-1">
+                        <div class="ng-scope ng-isolate-scope">
+                            <md-content class="ng-scope _md md-no-flicker">
+                                <div class="testimonial">
+                                    <div class="testimonial__backdrop">
+                                        <picture>
+
+                                            <img src="./image/YZf6KQcTEYR4O9kKtzprf_UBMcNwrtDKL5Ral7c4iVZoMSMwSY4Atzk89b-30cSKTZeVOixW3sU7te4vI1ma_WSo=s0"
+                                                 class="testimonial__backdrop__img" alt="Alex" role="presentation"
+                                                 aria-hidden="true">
+                                        </picture>
+                                    </div>
+
+                                    <div class="testimonial__card-ctn">
+                                        <md-card class="testimonial-card _md">
+                                            <div class="testimonial-card__content">
+                                                <h3 class="testimonial-card__heading">Digital skills trainer</h3>
+                                                <p class="testimonial-card__copy">I was born and raised in a ghetto and
+                                                    never really had access to computers, yet I was able to take
+                                                    advantage of Google trainings. I am now a lead digital skills
+                                                    trainer that helps businesses across Africa use the web to grow.</p>
+
+                                            </div>
+                                        </md-card>
+                                    </div>
+                                </div>
+
+                            </md-content>
+                        </div>
+                    </div>
+
+                    <div id="tab-content-2" class="_md ng-scope md-right md-no-scroll tab-pane" role="tabpanel"
+                         aria-labelledby="tab-item-2">
+                        <div class="ng-scope ng-isolate-scope">
+                            <md-content class="ng-scope _md md-no-flicker">
+                                <div class="testimonial">
+                                    <div class="testimonial__backdrop">
+                                        <picture>
+
+                                            <img src="./image/759wK2pz9kY_AmMemR8HnxGvBwaqhiuGv_YdA7PE522K9gIM5qpJYRDYmkL4GGGBIrQj9om0JqUntAYRtBQaFjk=s0"
+                                                 class="testimonial__backdrop__img" alt="Chebet" role="presentation"
+                                                 aria-hidden="true">
+                                        </picture>
+                                    </div>
+
+                                    <div class="testimonial__card-ctn">
+                                        <md-card class="testimonial-card _md">
+                                            <div class="testimonial-card__content">
+                                                <h3 class="testimonial-card__heading">Owns an eCommerce
+                                                    business</h3>
+                                                <p class="testimonial-card__copy">Thanks to Google digital training,
+                                                    I
+                                                    built up the courage to set up an eCommerce store that showcases
+                                                    the
+                                                    magnificent beauty of modern-day Africa through luxury leather
+                                                    products.
+                                                    <br>
+                                                    <br>By using social media and digital marketing, I have been
+                                                    able to
+                                                    reach more customers and propel the growth of my business.</p>
+
+                                            </div>
+                                        </md-card>
+                                    </div>
+                                </div>
+
+                            </md-content>
+                        </div>
+                    </div>
+
+                    <div id="tab-content-3" class="_md ng-scope md-right md-no-scroll tab-pane" role="tabpanel"
+                         aria-labelledby="tab-item-3">
+
+                        <div class="ng-scope ng-isolate-scope">
+                            <md-content class="ng-scope _md md-no-flicker">
+                                <div class="testimonial">
+                                    <div class="testimonial__backdrop">
+                                        <picture>
+                                              <img src="./image/oEl8wONct2owjQCLm2sWpCEus_2mA9c_3rhr0q4IwDELQRdv6m01EX30sJkY5H3KUlPnzc6rkcq2kYjnc7g7Fg=s0"
+                                                 class="testimonial__backdrop__img" alt="Idris" role="presentation"
+                                                 aria-hidden="true">
+                                        </picture>
+                                    </div>
+
+                                    <div class="testimonial__card-ctn">
+                                        <md-card class="testimonial-card _md">
+                                            <div class="testimonial-card__content">
+                                                <h3 class="testimonial-card__heading">Employed as an Online Account
+                                                    Manager</h3>
+                                                <p class="testimonial-card__copy">Thanks to Google training
+                                                    programs, I
+                                                    acquired online marketing and search engine optimization skills
+                                                    and
+                                                    got hired as an Online Account Manager at a leading digital
+                                                    media
+                                                    company.</p>
+
+                                            </div>
+                                        </md-card>
+                                    </div>
+                                </div>
+
+                            </md-content>
+                        </div>
+                    </div>
+
+                    <div id="tab-content-4" class="_md ng-scope md-right md-no-scroll tab-pane" role="tabpanel"
+                         aria-labelledby="tab-item-4">
+
+                        <div class="ng-scope ng-isolate-scope">
+                            <md-content class="ng-scope _md md-no-flicker">
+                                <div class="testimonial">
+                                    <div class="testimonial__backdrop">
+                                        <picture>
+                                             <img src="./image/qSo_l0F2zm_h9zfO7qqfrdQ9H_ED2hbMc0xQ4AM4q2XgxcB9zpGf-gKBMUSexSp53kM1702My_EHc_sOeWCLRIM=s0"
+                                                 class="testimonial__backdrop__img" alt="Tomi" role="presentation"
+                                                 aria-hidden="true">
+                                        </picture>
+                                    </div>
+
+                                    <div class="testimonial__card-ctn">
+                                        <md-card class="testimonial-card _md">
+                                            <div class="testimonial-card__content">
+                                                <h3 class="testimonial-card__heading">Runs an online Public
+                                                    Relations
+                                                    company</h3>
+                                                <p class="testimonial-card__copy">After completing Google trainings
+                                                    in
+                                                    digital marketing, I was able to reposition my PR company as a
+                                                    one-stop agency that helps brands manage their online
+                                                    audiences.</p>
+
+                                            </div>
+                                        </md-card>
+                                    </div>
+                                </div>
+
+                            </md-content>
+                        </div>
+                    </div>
+
+                </md-tabs-content-wrapper>
+            </md-tabs>
+        </div>
+
+
+        <!-- FREEFORM MODULE -->
+
+
+        <!-- TOUT MODULE -->
+
+
+        <div class="tout">
+            <a class="tout__link" href="#digitalskills.withgoogle.com/create-your-plan">
+                <h2 class="tout__subtitle">Create a plan</h2>
+                <h3 class="tout__title">
+                    <span class="tout__title-text js-homepage-cta-tout">Sign up</span>
+                    <i class="material-icons icon--arrow_forward fab-icon action-icon"></i>
+                </h3>
+            </a>
+        </div>
+
+
+        <!--END CONTENT-->
+
+    </div>
+
+    <!-- Video Lightbox, used in testimonials -->
+    <script nonce="76c878f0bdd575adfe60c91f505fdb79" type="text/ng-template" id="video-lightbox">
+
+        <md-dialog aria-label="" class="video-lightbox">
+            <md-dialog-content>
+                <div class="video-lightbox__header" ng-show="title">
+                    <h2 class="video-lightbox__title">{[ title ]}</h2>
+                </div>
+                <div class="responsive-video-wrapper">
+                    <iframe
+                            width="640"
+                            height="360"
+                            ng-src="{[videoUrl]}"
+                            frameborder="0"
+                            allowfullscreen></iframe>
+                </div>
+            </md-dialog-content>
+        </md-dialog>
+    </script>
+    <!-- Footer -->
+    <footer class="gbl-footer">
+        <div class="gbl-footer__content gbl-footer__content--main">
+            <div class="gbl-footer__row">
+                <div class="gbl-footer__ident">
+                <span class="gbl-footer__logo">
+                    <img src="./image/grey_google_logo_image_url.png"
+                         alt="Google" aria-label="Google" class="gbl-footer__logo-img" draggable="false">
+                    <span class="gbl-footer__logo-text no-pipe">A Growth Engine for Youth</span>
+                </span>
+                </div>
+
+                <div class="gbl-footer__column-offset">
+                    <div class="gbl-footer__links">
+                        <a href="http://www.google.co.uk/intl/en/policies/privacy/?fg=1" class="gbl-footer__link"
+                           target="_blank">
+                            Privacy &amp; Terms
+                        </a>
+
+
+                    </div>
+
+                    <select myg-locale-selector="" xsrf-token="None" event-xsrf-token="" show-on-load=""
+                            class="gbl-footer__locale-selector ng-isolate-scope" aria-label="Choose another locale">
+
+                        <option value="#atelierdigitalportugal.withgoogle.com">
+                            Portugal
+                        </option>
+
+                        <option value="#digitalskills.withgoogle.com" selected="">
+                            Africa
+                        </option>
+
+                        <option value="#lateliernumerique.withgoogle.com">
+                            Afrique
+                        </option>
+
+                        <option value="#oficinaafrica.withgoogle.com">
+                            África
+                        </option>
+
+                        <option value="#digitalgarage-au.withgoogle.com">
+                            Australia
+                        </option>
+
+                        <option value="#atelierdigital-be.withgoogle.com">
+                            Belgique
+                        </option>
+
+                        <option value="#digitaalatelier.withgoogle.com">
+                            België
+                        </option>
+
+                        <option value="#digitalengarazh.withgoogle.com">
+                            България
+                        </option>
+
+                        <option value="#ateliedigital.withgoogle.com">
+                            Brazil
+                        </option>
+
+                        <option value="#digitalnigaraz.withgoogle.com">
+                            Česká republika
+                        </option>
+
+                        <option value="#digitalnagaraza-rs.withgoogle.com">
+                            Србија
+                        </option>
+
+                        <option value="#digitalworkshop.withgoogle.com">
+                            Deutschland
+                        </option>
+
+                        <option value="#succesonline.withgoogle.com">
+                            Danmark
+                        </option>
+
+                        <option value="#digitalgarage-ee.withgoogle.com">
+                            Eesti
+                        </option>
+
+                        <option value="#greektourism.withgoogle.com">
+                            Ελλάδα
+                        </option>
+
+                        <option value="#activatunegocio.withgoogle.com">
+                            España
+                        </option>
+
+                        <option value="#digitalworkshop-eu.withgoogle.com">
+                            European
+                        </option>
+
+                        <option value="#digitalactive.withgoogle.com">
+                            France (Digital Active)
+                        </option>
+
+                        <option value="#pourlespros.withgoogle.com">
+                            France (Pour les Pros)
+                        </option>
+
+                        <option value="#digitalnagaraza.withgoogle.com">
+                            Hrvatska
+                        </option>
+
+                        <option value="#digitalgarage-ie.withgoogle.com">
+                            Ireland
+                        </option>
+
+                        <option value="#digitalunlocked.withgoogle.com">
+                            India
+                        </option>
+
+                        <option value="#eccellenzeindigitale.withgoogle.com">
+                            Italia
+                        </option>
+
+                        <option value="#digitalworkshop-jp.withgoogle.com">
+                            日本
+                        </option>
+
+                        <option value="#digitalgarage-lv.withgoogle.com">
+                            Latvija
+                        </option>
+
+                        <option value="#digitalgarage-lt.withgoogle.com">
+                            Lietuva
+                        </option>
+
+                        <option value="#digital-workshop-lu.withgoogle.com">
+                            Luxembourg (EN)
+                        </option>
+
+                        <option value="#atelierdigital-lu.withgoogle.com">
+                            Luxembourg (FR)
+                        </option>
+
+                        <option value="#digitalworkshop-lu.withgoogle.com">
+                            Luxemburg (DE)
+                        </option>
+
+                        <option value="#digitalworkshop-hu.withgoogle.com">
+                            Magyarország
+                        </option>
+
+                        <option value="#digitalewerkplaats.withgoogle.com">
+                            Nederland
+                        </option>
+
+                        <option value="#digitalewerkplaatsvoorstudenten.withgoogle.com">
+                            Nederlands (studenten)
+                        </option>
+
+                        <option value="#digitalworkshop-at.withgoogle.com">
+                            Österreich
+                        </option>
+
+                        <option value="#rewolucje.withgoogle.com">
+                            Polska
+                        </option>
+
+                        <option value="#atelieruldigital.withgoogle.com">
+                            România
+                        </option>
+
+                        <option value="#digitalakademin.withgoogle.com">
+                            Sverige
+                        </option>
+
+                        <option value="#digitalnagaraza-si.withgoogle.com">
+                            Slovenija
+                        </option>
+
+                        <option value="#digitalnagaraz.withgoogle.com">
+                            Slovensko
+                        </option>
+
+                        <option value="#atelierdigital-de.withgoogle.com">
+                            Schweiz
+                        </option>
+
+                        <option value="#digitalgarage-fi.withgoogle.com">
+                            Suomi
+                        </option>
+
+                        <option value="#atelierdigital-fr.withgoogle.com">
+                            Suisse
+                        </option>
+
+                        <option value="#atelierdigital-it.withgoogle.com">
+                            Svizzera
+                        </option>
+
+                        <option value="#digitalgarage.withgoogle.com">
+                            United Kingdom
+                        </option>
+
+                        <option value="#digitalworkshop-ua.withgoogle.com">
+                            Україна
+                        </option>
+
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="gbl-footer__row">
+
+                <div class="gbl-footer__sharing-controls">
+                    <span class="gbl-footer__sharing-text">Share:</span>
+
+                    <a myg-share-link="" href="#plus.google.com/share?url=digitalskills.withgoogle.com"
+                       target="_blank" class="gbl-footer__sharing-control" aria-label="" share-width="" share-height="">
+                        <img src="./image/google_plus_image_url.png"
+                             alt="" widht="33" height="22">
+
+                    </a>
+
+
+                    <a myg-share-link="" href="http://www.facebook.com/sharer/sharer.php?u=digitalskills.withgoogle.com"
+                       target="_blank" class="gbl-footer__sharing-control" aria-label="" share-width="" share-height="">
+                        <img src="./image/vxdJ8vmNuivVoZE9kR9i9vbTSp8vie2jDJ0qFriWCFhVslsaeT_JeYF9DRGizwPCgUdozPYVt-xYQIGQQ7LYwg=s0"
+                             alt="FB" widht="22" height="22">
+
+                    </a>
+
+
+                    <a myg-share-link=""
+                       href="#twitter.com/share?url=http://www.digitalskills.withgoogle.com&amp;text=Just%20been%20to%20Digital%20Skills%20for%20Africa%20from%20Google,%20with%20free%20courses%20to%20help%20you%20grow%20online%20-%20check%20it%20out!"
+                       target="_blank" class="gbl-footer__sharing-control" aria-label="" share-width="" share-height="">
+                        <img src="./image/C5HIk-2ZKKDAbdMfVBqStAtvftKvgxwmNcESkiIX4EUZbAy0um-AtIGJLN8tHwlZDJj16rijrT86HmMECZpJAQ=s0"
+                             alt="twitter" widht="25" height="22">
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+
+
+</div>
+
+
+<script nonce="76c878f0bdd575adfe60c91f505fdb79" type="text/javascript">
+    //Survey data
+</script>
+
+
+<script src="./js/jquery.min.js"></script>
+
+<script src="./js/bootstrap.min.js"></script>
+<script src="./assets/slick/slick.min.js"></script>
+<script src="./js/vendor.js"></script>
+
+<script src="./js/main.js"></script>
+
+<!-- GTM Analytics. -->
+
+
+<!-- Google Tag Manager -->
+<script nonce="76c878f0bdd575adfe60c91f505fdb79" type="text/javascript">
+    dataLayer = [{
+        'gtm.blacklist': ['nonGoogleScripts', 'nonGooglePixels', 'customScripts', 'customPixels']
+    }];
+</script>
+<noscript nonce="76c878f0bdd575adfe60c91f505fdb79">&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-56V5CJ"
+    height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script nonce="76c878f0bdd575adfe60c91f505fdb79">(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+    var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l !== 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-56V5CJ');</script>
+<!-- End Google Tag Manager -->
+
+
+</body>
+</html>

@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)#digitalskills.withgoogle.com/ -->
+<html lang="en" itemscope="" itemtype="http://schema.org/Organization">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="assets/slick/slick.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="page-wrapper js-page-wrapper homepage ng-scope flexwrap">
+    <div class="gbl-header-wrapper ">
+
+        <div class=" sidenav" id="mySidenav">
+            <div class="md-sidenav"
+                 class="main-sidenav main-sidenav__logged-out whiteframe-z4 _md-closed ng-isolate-scope _md"
+                 tabindex="-1">
+                <md-content class="main-sidenav__content _md md-no-flicker">
+                    <div class="main-sidenav__inner">
+                        <md-toolbar class="md-accent main-sidenav__toolbar _md _md-toolbar-transitions">
+                            <div class="zone zone--one">
+
+                                <a href="#digitalskills.withgoogle.com/" class="main-sidenav__logo">
+                                    <img class="main-sidenav__logo--image"
+                                         src="./image/unnamed.png"
+                                         alt="Home - Digital Skills for Africa"
+                                         aria-label="Home - Digital Skills for Africa">
+                                </a>
+
+                            </div>
+                            <div class="zone zone--two main-sidenav__close">
+                                <button class="action-close main-sidenav__action-close" onclick="closeNav()"
+                                        aria-label="Close Main Menu"><i class="material-icons icon--close"></i></button>
+                            </div>
+                        </md-toolbar>
+
+                        <nav class="main-sidenav__list" toggle-active-link-directive="">
+
+
+                            <div class="main-sidenav__action-ctn">
+                                <button class="md-button md-default-theme main-sidenav__action-start action-start md-primary md-raised md-button ng-isolate-scope md-ink-ripple"
+                                        type="button" myg-dialog-sign-up=""
+                                        dialog-sign-up-template="global-signup-dialog" aria-label="Start learning">Start
+                                    learning
+                                </button>
+                            </div>
+
+                            <a href="signin.html"
+                               class="main-sidenav__link js-main-sidenav__link main-sidenav__action-signin"
+                               ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--account_circle main-nav__icon"></i>
+                                <span>Sign in</span>
+                            </a>
+
+                            <hr class="main-sidenav__divider main-sidenav__divider--logged-out">
+
+                            <a href="index.html"
+                               class="main-sidenav__link js-main-sidenav__link is-active"
+                               ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--home main-nav__icon"></i>
+                                <span>Home</span>
+                            </a>
+
+
+                            <a href="#digitalskills.withgoogle.com/topic-library"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--library_books main-nav__icon"></i>
+                                <span>Topic Library</span>
+                            </a>
+
+
+                            <hr class="main-sidenav__divider">
+
+
+                            <a href="#digitalskills.withgoogle.com/tools"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--work main-nav__icon"></i>
+                                <span>Tools</span>
+                            </a>
+
+
+                            <a href="#digitalskills.withgoogle.com/f2f"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--insert_invitation main-nav__icon"></i>
+                                <span>Face to Face</span>
+                            </a>
+
+
+                            <a href="#digitalskills.withgoogle.com/partners"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--people main-nav__icon"></i>
+                                <span>Partners</span>
+                            </a>
+
+
+                            <a href="#digitalskills.withgoogle.com/faqs"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--help main-nav__icon"></i>
+                                <span>Help &amp; FAQs</span>
+                            </a>
+
+
+                            <a href="#digitalskills.withgoogle.com/contact"
+                               class="main-sidenav__link js-main-sidenav__link" ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--chat_bubble main-nav__icon"></i>
+                                <span>Contact</span>
+                            </a>
+
+
+                            <hr class="main-sidenav__divider">
+
+
+                            <a href="http://www.google.com/business" target="_blank"
+                               class="main-sidenav__link js-main-sidenav__link js-link--external"
+                               ng-click="sidenav.onLinkClick($event)">
+                                <i class="material-icons icon--thumb_up main-nav__icon"></i>
+                                <span>Google My Business</span>
+                                <i class="material-icons icon--launch"></i>
+                            </a>
+
+
+                        </nav>
+                    </div>
+
+
+                    <div class="main-sidenav__action-ctn">
+                        <a class="main-sidenav__action-start action-start md-primary md-raised md-button md-ink-ripple"
+                           href="#digitalskills.withgoogle.com/create-your-plan"
+                           aria-label="Sign in">Sign in</a>
+                    </div>
+
+                </md-content>
+            </div>
+        </div>
+
+        <header class="gbl-header main-header main-header--logged-out js-gbl-header ng-scope"
+                ng-controller="HeaderController as header">
+            <div class="zone zone--one">
+                <button class="main-header__action-toggle action-toggle md-button md-ink-ripple" type="button"
+                        onclick="openNav()" aria-label="Header Main Menu">
+                    <i class="main-header__icon-menu action-icon ng-scope">
+                        <svg fill="#757575" height="24" viewBox="0 0 24 24" width="24"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                        </svg>
+                    </i>
+                </button>
+
+                <div class="main-header__logos ">
+                    <a href="#" class="main-header__logo">
+                        <img class="main-header__logo--image"
+                             src="./image/unnamed.png"
+                             alt="Home - Digital Skills for Africa" aria-label="Home - Digital Skills for Africa">
+                    </a>
+
+
+                </div>
+            </div>
+
+            <div class="zone zone--three">
+                <div class="main-header__goog-logo">
+                    <img class="gbl-partner__primary"
+                         src="./image/grey_google_logo_image_url.png"
+                         alt="Google" aria-label="Google">
+                </div>
+            </div>
+        </header>
+
+        <div class="sub-header-nav main-header--logged-out ng-scope">
+            <div class="zone zone--one">
+                <div class=" md-nav-bar header-nav ng-isolate-scope current-nav-home">
+                    <div class="md-nav-bar">
+                        <nav role="navigation">
+                            <ul class="_md-nav-bar-list layout-row" layout="row" role="listbox"
+                                tabindex="0">
+
+
+                                <li class="sub-header-nav__link md-nav-item ng-scope ng-isolate-scope" role="option"
+                                    aria-selected="true"><a
+                                        class="_md-nav-button md-accent md-button ng-scope md-ink-ripple md-active md-primary"
+                                        href="index.html">
+                                    <span class="_md-nav-button-text ng-scope">
+                    Home
+                </span>
+                                </a>
+                                </li>
+
+
+                                <li class="sub-header-nav__link md-nav-item ng-scope ng-isolate-scope" role="option"
+                                    aria-selected="false" md-nav-href="/topic-library" name="topic-library">
+                                    <!-- ngIf: ctrl.mdNavSref --><!-- ngIf: ctrl.mdNavHref --><a
+                                        class="_md-nav-button md-accent md-button ng-scope md-ink-ripple md-unselected"
+                                        ng-if="ctrl.mdNavHref" ng-class="ctrl.getNgClassMap()"
+                                        tabindex="-1" ng-href="/topic-library" aria-label="Topic Library"
+                                        href="topic-library.html"><span
+                                        class="_md-nav-button-text ng-scope">
+                Topic Library
+            </span></a></li>
+
+
+                                <li class="sub-header-nav__link md-nav-item ng-scope ng-isolate-scope" role="option"
+                                    aria-selected="false" md-nav-href="/partners" name="partners">
+                                    <!-- ngIf: ctrl.mdNavSref --><!-- ngIf: ctrl.mdNavHref --><a
+                                        class="_md-nav-button md-accent md-button ng-scope md-ink-ripple md-unselected"
+                                        ng-if="ctrl.mdNavHref" ng-class="ctrl.getNgClassMap()"
+                                        tabindex="-1" ng-href="/partners" aria-label="Partners"
+                                        href="partners.html"><span
+                                        class="_md-nav-button-text ng-scope">
+                    Partners
+                </span></a></li>
+
+
+                                <!-- @note `second_events` item demoted into `More` menu -->
+                            </ul>
+                        </nav>
+                        <md-nav-ink-bar style="left: 12px; width: 73px;"></md-nav-ink-bar>
+                    </div>
+                </div>
+                <md-menu class="more-menu sub-header-nav__link md-menu ng-scope _md" md-offset="0 62">
+                    <button class="more-menu-trigger md-button md-ink-ripple dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" type="button"
+                            aria-haspopup="true" aria-label="More
+                arrow_drop_down" aria-expanded="false" aria-owns="menu_container_0">
+                        <span class="ng-scope">More</span>
+                        <i class="material-icons icon--arrow_drop_down ng-scope">arrow_drop_down</i>
+                    </button>
+
+
+                    <div class="_md _md-open-menu-container md-whiteframe-z2 dropdown-menu" id="menu_container_0"
+                         aria-hidden="true">
+                        <md-menu-content class="more-menu-items" width="3" role="menu">
+                            <md-menu-item>
+                                <a class="menu-nav__link md-button md-ink-ripple"
+                                   role="menuitem" aria-label="Tools" href="#digitalskills.withgoogle.com/tools">
+                                    <!-- <i class="material-icons icon--work main-nav__icon">work</i> -->
+                                    <span class="ng-scope">Tools</span>
+                                </a>
+                            </md-menu-item>
+
+
+                            <md-menu-divider role="separator"></md-menu-divider>
+
+
+                            <md-menu-item>
+                                <a class="menu-nav__link md-button md-ink-ripple" ng-href="/faqs"
+                                   role="menuitem" aria-label="Help &amp; FAQs"
+                                   href="#digitalskills.withgoogle.com/faqs">
+                                    <!-- <i class="material-icons icon--help main-nav__icon">help</i> -->
+                                    <span class="ng-scope">Help &amp; FAQs</span>
+                                </a>
+                            </md-menu-item>
+
+
+                            <md-menu-item>
+                                <a class="menu-nav__link md-button md-ink-ripple" ng-href="/contact"
+                                   role="menuitem" aria-label="Contact"
+                                   href="#digitalskills.withgoogle.com/contact">
+                                    <!-- <i class="material-icons icon--chat_bubble main-nav__icon">chat_bubble</i> -->
+                                    <span class="ng-scope">Contact</span>
+                                </a>
+                            </md-menu-item>
+
+
+                            <md-menu-item>
+                                <a class="menu-nav__link js-link--external md-button md-ink-ripple"
+                                   ng-href="http://www.google.com/business" target="_blank" role="menuitem"
+                                   aria-label="Google My Business
+                            launch" href="http://www.google.com/business">
+                                    <!-- <i class="material-icons icon--thumb_up main-nav__icon">thumb_up</i> -->
+                                    <span class="ng-scope">Google My Business</span>
+                                    <i class="material-icons icon--launch ng-scope">launch</i>
+                                </a>
+                            </md-menu-item>
+
+
+                        </md-menu-content>
+                    </div>
+                </md-menu>
+            </div>
+
+            <div class="zone zone--three">
+                <div class="main-header__actions">
+
+
+                    <a class="md-button md-accent md-default-theme main-header__action main-header__action-signin md-button md-ink-ripple"
+                       id="CTA_Login_topRight_txt" href="signin.html"
+                       aria-label="Sign in">
+                        <span class="js-header-cta-login ng-scope">Sign in</span>
+                    </a>
+
+
+                    <a class="md-button md-primary md-raised md-default-theme main-header__action main-header__action-start md-button md-ink-ripple"
+                       id="CTA_StartLearning_topRight_btn"
+                       href="#digitalskills.withgoogle.com/create-your-plan" aria-label="Start learning">
+
+                        <span class="js-header-cta-start-learning ng-scope">Start learning</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper ng-isolate-scope" myg-scrolled-into-view="" myg-scrolled-into-view-target="js-mission-section"
+         myg-scrolled-into-view-class="js-page-wrapper--page-scrolled" myg-scrolled-into-view-ignore="js-gbl-header">
+
+        <!--CONTENT-->
+
+        <div class="wrapper js-page-wrapper ng-isolate-scope" myg-scrolled-past-nav=""
+             myg-scrolled-past-nav-target="js-page-wrapper"
+             myg-scrolled-past-nav-class="js-page-wrapper--page-scrolled">
+
+
+            <header class="subpage-header">
+                <div class="subpage-header__content">
+                    <h1 class="subpage-header__title">Partners</h1>
+                </div>
+            </header>
+
+            <div class="subpage-content product-content js-subpage-content">
+
+                <div class="card-group card-group--partners">
+                    <br/>
+                    <br/>
+                    <div class="subpage-content__padded-copy">
+
+                        <h2 class="card-group--partners__name">Kenya</h2>
+
+
+                    </div>
+
+
+                    <div class="card-ctn--flex card--max-2">
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/DUKrBXRZuexTAcBu0ByEWEwZ8KYy3N6C6vu3Kw1s3ws_2w8AGaH7iw2fHhhF0nq4_rVlFcpWpjxL-7JXH3Nr_Q=s0"
+                                     alt="eMobilis">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://www.emobilis.ac.ke/index.php/pivot25/178-google-digital-free-training-at-emobilis"
+                                   target="_blank" aria-label="VISIT SITE">VISIT SITE</a>
+
+                            </div>
+                        </md-card>
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/-EtvvGrRUkqnQ9Urd4WPuRHA3yolSHuWFyxdxke2vkxT7vEIq8jWKWY1dxHVtriV4YJyY9um_tGkgrZxvwsoGs8=s0"
+                                     alt="Africa118">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://africa118.com" target="_blank" aria-label="VISIT SITE">VISIT SITE</a>
+
+                            </div>
+                        </md-card>
+
+                    </div>
+                </div>
+
+                <div class="card-group card-group--partners">
+
+                    <div class="subpage-content__padded-copy">
+
+                        <h2 class="card-group--partners__name">Nigeria</h2>
+
+
+                    </div>
+
+
+                    <div class="card-ctn--flex card--max-2">
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/1FpJtadR9_uVt7H_QaWp8jcKYASELOfj5TAGtbELKGkUQExtiweLy7gA8vAFL-8llbF6fn4qfqjqnFYWhVzq8Q=s0"
+                                     alt="Edubridge">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://www.edubridge.info/training/digital-marketing-certification"
+                                   target="_blank" aria-label="VISIT SITE">VISIT SITE</a>
+
+                            </div>
+                        </md-card>
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/vfYmMSBJJAvwBECIU7lpznICPUIlG3Hzqmk1jjdN2V0XhuKq4Eheendk8Cz1Nv4YPYqPH7hBWDitBiaql3bNlO4=s0"
+                                     alt="KineticNG">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://kineticng.com/training/" target="_blank" aria-label="VISIT SITE">VISIT
+                                    SITE</a>
+
+                            </div>
+                        </md-card>
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/urNKtu7kcnFRf6p2_jis3vD-jNoyyHgm1MCQBmuaa5pFEbi1pXRfxzHz0wc2qRUwNC_AAbkdJmpl2LfwtvLCp5M=s0"
+                                     alt="Mindthegap">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://digitalmeng.com/Signup" target="_blank" aria-label="VISIT SITE">VISIT
+                                    SITE</a>
+
+                            </div>
+                        </md-card>
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/qrLxHFB9_UF7WhROKPQ-R7sCk6bMUlL6XZv2uNMJLtvaIjulPFoLAVsVibUPrHGkH39UerlaEqYVAouCKU1gx5s=s0"
+                                     alt="Swifta">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://swifta.com" target="_blank" aria-label="VISIT SITE">VISIT SITE</a>
+
+                            </div>
+                        </md-card>
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/M1AsZlRzxfoZ6MNygEnLI1HXdYMT1npS_cjdBoqr02pq8wdjWv7bUKLQuSVE0ExrV4QMlxEXlhs8jOEWd1z7s_c=s0"
+                                     alt="Sanstonz">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://sanstonz.com.ng/" target="_blank" aria-label="VISIT SITE">VISIT SITE</a>
+
+                            </div>
+                        </md-card>
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/NA8W8aiP8so9v3cYrWwRWjgbeump9-W27sHp1BqDWO8JcIe_yj1GrUbr_vS-xK65u74wTEBgsY-gM-jB3h_7Qykj=s0"
+                                     alt="Konverge">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://www.knvgmedia.com/" target="_blank" aria-label="VISIT SITE">VISIT
+                                    SITE</a>
+
+                            </div>
+                        </md-card>
+
+                    </div>
+                </div>
+
+                <div class="card-group card-group--partners">
+
+                    <div class="subpage-content__padded-copy">
+
+                        <h2 class="card-group--partners__name">South Africa</h2>
+
+
+                    </div>
+
+
+                    <div class="card-ctn--flex card--max-2">
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/1QZVWdKCx2YHehbMlYoZ72uhwhCAouLyuzVnuJNnZvtiOChtuZyBasVQsUCARrEcaWnirkELlKEkhbZXsIPI-4Wa=s0"
+                                     alt="The Fact Foundry">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://www.thefactfoundry.com/training/" target="_blank"
+                                   aria-label="VISIT SITE">VISIT SITE</a>
+
+                            </div>
+                        </md-card>
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/X0dxEfdHxBfkKH90CoIRlF3Q1k4AUCUNANNuIKNflBvi1xq36bbvoOPH5Oc5C2XO2RoSeWmEs6oG7l17eGUrs0o=s0"
+                                     alt="Rekindle Learning">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://rekindlelearning.com/" target="_blank" aria-label="VISIT SITE">VISIT
+                                    SITE</a>
+
+                            </div>
+                        </md-card>
+
+                    </div>
+                </div>
+
+                <div class="card-group card-group--partners">
+
+                    <div class="subpage-content__padded-copy">
+
+                        <h2 class="card-group--partners__name">Other Countries</h2>
+
+
+                    </div>
+
+
+                    <div class="card-ctn--flex card--max-2">
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/5dFezvgmeHitCjq6X2BlSiJTxHaW1DUCLSljxbJiHe9Fp_xvZ4y1TO7lGBKqJzV2w02sBdBMgMrJKNtaMGLJVck=s0"
+                                     alt="Wineloya">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://wineloya.com/" target="_blank" aria-label="VISIT SITE">VISIT SITE</a>
+
+                            </div>
+                        </md-card>
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/wB7C-cDecVYv9C1iRyDURzTCr04znRk5RivtzByetUN63gZ-pfgZT2_cChCS0g6Heqvjp4GJDrK8D1f0jFqlsA=s0"
+                                     alt="Blu Flamingo">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://bluflamingo.digital/" target="_blank" aria-label="VISIT SITE">VISIT
+                                    SITE</a>
+
+                            </div>
+                        </md-card>
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/80GqVYWteGjAUzmwDlF6HnFY-ENdeultyQ5kcqpnJVxv6uzsglP2mZdUjFP6ZrQXB9ulags2XCnTnwydLSBV64c=s0"
+                                     alt="Centum">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://www.centumlearning.com/centum-learning-africa.html" target="_blank"
+                                   aria-label="VISIT SITE">VISIT SITE</a>
+
+                            </div>
+                        </md-card>
+
+
+                        <md-card class="card card--partner _md">
+                            <md-card-content
+                                    class="subpage-content--padded card--partner__content card--partner__content--center">
+                                <img class="card--partner__logo"
+                                     src="https://lh3.googleusercontent.com/Whyettg5Lg_LnoTpDOXrgD2LOzc7bs2cBx3WvOsaq2qhv0nRtmz6ziQis3LLAEdaOGiURc3UKJedLxJX3LchKRQ=s0"
+                                     alt="3W">
+
+                            </md-card-content>
+                            <div class="md-actions card__actions card--partner__actions layout-align-end-center layout-row"
+                                 layout="row" layout-align="end center">
+
+
+                                <a class="md-accent card-partner__action md-button md-ink-ripple" ng-transclude=""
+                                   href="http://3w.lagence.de.com/" target="_blank" aria-label="VISIT SITE">VISIT
+                                    SITE</a>
+
+                            </div>
+                        </md-card>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--END CONTENT-->
+
+    </div>
+
+    <!-- Video Lightbox, used in testimonials -->
+    <script nonce="76c878f0bdd575adfe60c91f505fdb79" type="text/ng-template" id="video-lightbox">
+
+        <md-dialog aria-label="" class="video-lightbox">
+            <md-dialog-content>
+                <div class="video-lightbox__header" ng-show="title">
+                    <h2 class="video-lightbox__title">{[ title ]}</h2>
+                </div>
+                <div class="responsive-video-wrapper">
+                    <iframe
+                            width="640"
+                            height="360"
+                            ng-src="{[videoUrl]}"
+                            frameborder="0"
+                            allowfullscreen></iframe>
+                </div>
+            </md-dialog-content>
+        </md-dialog>
+    </script>
+    <!-- Footer -->
+    <footer class="gbl-footer">
+        <div class="gbl-footer__content gbl-footer__content--main">
+            <div class="gbl-footer__row">
+                <div class="gbl-footer__ident">
+                <span class="gbl-footer__logo">
+                    <img src="./image/grey_google_logo_image_url.png"
+                         alt="Google" aria-label="Google" class="gbl-footer__logo-img" draggable="false">
+                    <span class="gbl-footer__logo-text no-pipe">A Growth Engine for Youth</span>
+                </span>
+                </div>
+
+                <div class="gbl-footer__column-offset">
+                    <div class="gbl-footer__links">
+                        <a href="http://www.google.co.uk/intl/en/policies/privacy/?fg=1" class="gbl-footer__link"
+                           target="_blank">
+                            Privacy &amp; Terms
+                        </a>
+
+
+                    </div>
+
+                    <select myg-locale-selector="" xsrf-token="None" event-xsrf-token="" show-on-load=""
+                            class="gbl-footer__locale-selector ng-isolate-scope" aria-label="Choose another locale">
+
+                        <option value="#atelierdigitalportugal.withgoogle.com">
+                            Portugal
+                        </option>
+
+                        <option value="#digitalskills.withgoogle.com" selected="">
+                            Africa
+                        </option>
+
+                        <option value="#lateliernumerique.withgoogle.com">
+                            Afrique
+                        </option>
+
+                        <option value="#oficinaafrica.withgoogle.com">
+                            África
+                        </option>
+
+                        <option value="#digitalgarage-au.withgoogle.com">
+                            Australia
+                        </option>
+
+                        <option value="#atelierdigital-be.withgoogle.com">
+                            Belgique
+                        </option>
+
+                        <option value="#digitaalatelier.withgoogle.com">
+                            België
+                        </option>
+
+                        <option value="#digitalengarazh.withgoogle.com">
+                            България
+                        </option>
+
+                        <option value="#ateliedigital.withgoogle.com">
+                            Brazil
+                        </option>
+
+                        <option value="#digitalnigaraz.withgoogle.com">
+                            Česká republika
+                        </option>
+
+                        <option value="#digitalnagaraza-rs.withgoogle.com">
+                            Србија
+                        </option>
+
+                        <option value="#digitalworkshop.withgoogle.com">
+                            Deutschland
+                        </option>
+
+                        <option value="#succesonline.withgoogle.com">
+                            Danmark
+                        </option>
+
+                        <option value="#digitalgarage-ee.withgoogle.com">
+                            Eesti
+                        </option>
+
+                        <option value="#greektourism.withgoogle.com">
+                            Ελλάδα
+                        </option>
+
+                        <option value="#activatunegocio.withgoogle.com">
+                            España
+                        </option>
+
+                        <option value="#digitalworkshop-eu.withgoogle.com">
+                            European
+                        </option>
+
+                        <option value="#digitalactive.withgoogle.com">
+                            France (Digital Active)
+                        </option>
+
+                        <option value="#pourlespros.withgoogle.com">
+                            France (Pour les Pros)
+                        </option>
+
+                        <option value="#digitalnagaraza.withgoogle.com">
+                            Hrvatska
+                        </option>
+
+                        <option value="#digitalgarage-ie.withgoogle.com">
+                            Ireland
+                        </option>
+
+                        <option value="#digitalunlocked.withgoogle.com">
+                            India
+                        </option>
+
+                        <option value="#eccellenzeindigitale.withgoogle.com">
+                            Italia
+                        </option>
+
+                        <option value="#digitalworkshop-jp.withgoogle.com">
+                            日本
+                        </option>
+
+                        <option value="#digitalgarage-lv.withgoogle.com">
+                            Latvija
+                        </option>
+
+                        <option value="#digitalgarage-lt.withgoogle.com">
+                            Lietuva
+                        </option>
+
+                        <option value="#digital-workshop-lu.withgoogle.com">
+                            Luxembourg (EN)
+                        </option>
+
+                        <option value="#atelierdigital-lu.withgoogle.com">
+                            Luxembourg (FR)
+                        </option>
+
+                        <option value="#digitalworkshop-lu.withgoogle.com">
+                            Luxemburg (DE)
+                        </option>
+
+                        <option value="#digitalworkshop-hu.withgoogle.com">
+                            Magyarország
+                        </option>
+
+                        <option value="#digitalewerkplaats.withgoogle.com">
+                            Nederland
+                        </option>
+
+                        <option value="#digitalewerkplaatsvoorstudenten.withgoogle.com">
+                            Nederlands (studenten)
+                        </option>
+
+                        <option value="#digitalworkshop-at.withgoogle.com">
+                            Österreich
+                        </option>
+
+                        <option value="#rewolucje.withgoogle.com">
+                            Polska
+                        </option>
+
+                        <option value="#atelieruldigital.withgoogle.com">
+                            România
+                        </option>
+
+                        <option value="#digitalakademin.withgoogle.com">
+                            Sverige
+                        </option>
+
+                        <option value="#digitalnagaraza-si.withgoogle.com">
+                            Slovenija
+                        </option>
+
+                        <option value="#digitalnagaraz.withgoogle.com">
+                            Slovensko
+                        </option>
+
+                        <option value="#atelierdigital-de.withgoogle.com">
+                            Schweiz
+                        </option>
+
+                        <option value="#digitalgarage-fi.withgoogle.com">
+                            Suomi
+                        </option>
+
+                        <option value="#atelierdigital-fr.withgoogle.com">
+                            Suisse
+                        </option>
+
+                        <option value="#atelierdigital-it.withgoogle.com">
+                            Svizzera
+                        </option>
+
+                        <option value="#digitalgarage.withgoogle.com">
+                            United Kingdom
+                        </option>
+
+                        <option value="#digitalworkshop-ua.withgoogle.com">
+                            Україна
+                        </option>
+
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="gbl-footer__row">
+
+                <div class="gbl-footer__sharing-controls">
+                    <span class="gbl-footer__sharing-text">Share:</span>
+
+                    <a myg-share-link="" href="#plus.google.com/share?url=digitalskills.withgoogle.com"
+                       target="_blank" class="gbl-footer__sharing-control" aria-label="" share-width="" share-height="">
+                        <img src="./image/google_plus_image_url.png"
+                             alt="" widht="33" height="22">
+
+                    </a>
+
+
+                    <a myg-share-link="" href="http://www.facebook.com/sharer/sharer.php?u=digitalskills.withgoogle.com"
+                       target="_blank" class="gbl-footer__sharing-control" aria-label="" share-width="" share-height="">
+                        <img src="./image/vxdJ8vmNuivVoZE9kR9i9vbTSp8vie2jDJ0qFriWCFhVslsaeT_JeYF9DRGizwPCgUdozPYVt-xYQIGQQ7LYwg=s0"
+                             alt="FB" widht="22" height="22">
+
+                    </a>
+
+
+                    <a myg-share-link=""
+                       href="#twitter.com/share?url=http://www.digitalskills.withgoogle.com&amp;text=Just%20been%20to%20Digital%20Skills%20for%20Africa%20from%20Google,%20with%20free%20courses%20to%20help%20you%20grow%20online%20-%20check%20it%20out!"
+                       target="_blank" class="gbl-footer__sharing-control" aria-label="" share-width="" share-height="">
+                        <img src="./image/C5HIk-2ZKKDAbdMfVBqStAtvftKvgxwmNcESkiIX4EUZbAy0um-AtIGJLN8tHwlZDJj16rijrT86HmMECZpJAQ=s0"
+                             alt="twitter" widht="25" height="22">
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+
+
+</div>
+
+
+<script nonce="76c878f0bdd575adfe60c91f505fdb79" type="text/javascript">
+    //Survey data
+</script>
+
+
+<script src="./js/jquery.min.js"></script>
+
+<script src="./js/bootstrap.min.js"></script>
+<script src="./assets/slick/slick.min.js"></script>
+<script src="./js/vendor.js"></script>
+
+<script src="./js/main.js"></script>
+
+<!-- GTM Analytics. -->
+
+
+<!-- Google Tag Manager -->
+<script nonce="76c878f0bdd575adfe60c91f505fdb79" type="text/javascript">
+    dataLayer = [{
+        'gtm.blacklist': ['nonGoogleScripts', 'nonGooglePixels', 'customScripts', 'customPixels']
+    }];
+</script>
+<noscript nonce="76c878f0bdd575adfe60c91f505fdb79">&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-56V5CJ"
+    height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script nonce="76c878f0bdd575adfe60c91f505fdb79">(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+    var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l !== 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-56V5CJ');</script>
+<!-- End Google Tag Manager -->
+
+
+</body>
+</html>
