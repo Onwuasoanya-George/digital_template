@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8692491c-7ba6-49dc-a807-a322c65d0ee5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dash.html" afterPath="$PROJECT_DIR$/dash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modal.html" afterPath="$PROJECT_DIR$/modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partners.html" afterPath="$PROJECT_DIR$/partners.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signin.html" afterPath="$PROJECT_DIR$/signin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup.html" afterPath="$PROJECT_DIR$/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/splash.html" afterPath="$PROJECT_DIR$/splash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic-library.html" afterPath="$PROJECT_DIR$/topic-library.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,13 +31,14 @@
       <file leaf-file-name="dash.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="517" column="40" lean-forward="true" selection-start-line="517" selection-start-column="40" selection-end-line="517" selection-end-column="40" />
+            <state relative-caret-position="61">
+              <caret line="1075" column="21" lean-forward="false" selection-start-line="1075" selection-start-column="21" selection-end-line="1075" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#myg-progress-circular#0;n#div#0;n#md-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#myg-progress-circular#0;n#div#1;n#md-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#md-pagination-wrapper#0;n#div#0;n#md-tabs-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#md-pagination-wrapper#0;n#div#0;n#md-tabs-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#md-card#0;n#section#0;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#0;n#section#0;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#0;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -41,6 +49,7 @@
                 <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#5;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#6;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -52,8 +61,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="921" column="63" lean-forward="true" selection-start-line="921" selection-start-column="51" selection-end-line="921" selection-end-column="63" />
+            <state relative-caret-position="417">
+              <caret line="1370" column="0" lean-forward="true" selection-start-line="1370" selection-start-column="0" selection-end-line="1370" selection-end-column="0" />
               <folding>
                 <element signature="e#5409#5414#0" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -88,10 +97,6 @@
                 <element signature="n#div#2;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#68939#68944#0" expanded="true" />
-                <element signature="e#78179#78183#0" expanded="true" />
-                <element signature="e#78308#78312#0" expanded="true" />
-                <element signature="e#78312#78316#0" expanded="true" />
-                <element signature="e#78323#78327#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,10 +105,8 @@
       <file leaf-file-name="topic-library.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topic-library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="395" column="63" lean-forward="false" selection-start-line="395" selection-start-column="63" selection-end-line="395" selection-end-column="63" />
-              <caret line="467" column="63" lean-forward="false" selection-start-line="467" selection-start-column="63" selection-end-line="467" selection-end-column="63" />
-              <caret line="533" column="63" lean-forward="false" selection-start-line="533" selection-start-column="63" selection-end-line="533" selection-end-column="63" />
+            <state relative-caret-position="363">
+              <caret line="871" column="0" lean-forward="false" selection-start-line="871" selection-start-column="0" selection-end-line="871" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -111,21 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="72" lean-forward="false" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742339">
-              <caret line="43667" column="0" lean-forward="false" selection-start-line="43667" selection-start-column="0" selection-end-line="43667" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="42948" column="0" lean-forward="true" selection-start-line="42948" selection-start-column="0" selection-end-line="42952" selection-end-column="3" />
               <folding>
                 <element signature="e#577363#577536#2" expanded="true" />
                 <element signature="e#578825#578998#2" expanded="true" />
@@ -151,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/splash.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="444">
-              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,13 +153,43 @@
       <file leaf-file-name="modal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+            <state relative-caret-position="363">
+              <caret line="647" column="0" lean-forward="false" selection-start-line="647" selection-start-column="0" selection-end-line="647" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partners.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partners.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="946" column="0" lean-forward="false" selection-start-line="946" selection-start-column="0" selection-end-line="946" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/signin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="650" column="0" lean-forward="false" selection-start-line="650" selection-start-column="0" selection-end-line="650" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="658" column="0" lean-forward="false" selection-start-line="658" selection-start-column="0" selection-end-line="658" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,10 +205,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slick-cloned</find>
-      <find>How</find>
-      <find>url</find>
-      <find>md-tab-data</find>
       <find>944</find>
       <find>md-pagination-wrapper</find>
       <find>slick-tr</find>
@@ -212,6 +231,10 @@
       <find>Alet</find>
       <find>md-tab</find>
       <find>lesson</find>
+      <find>ic-arrow-carousel-l.svg</find>
+      <find>Any</find>
+      <find>certification</find>
+      <find>certification</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;/div</replace>
@@ -237,19 +260,19 @@
         <option value="$PROJECT_DIR$/js/homepage.js" />
         <option value="$USER_HOME$/.WebStorm2016.3/webstorm.exe.vmoptions" />
         <option value="$PROJECT_DIR$/singup.html" />
-        <option value="$PROJECT_DIR$/signup.html" />
-        <option value="$PROJECT_DIR$/signin.html" />
-        <option value="$PROJECT_DIR$/partners.html" />
         <option value="$PROJECT_DIR$/css/topic.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/topic-library.html" />
         <option value="$PROJECT_DIR$/lesson/70.html" />
-        <option value="$PROJECT_DIR$/modal.html" />
         <option value="$PROJECT_DIR$/css/modal.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/dash.css" />
-        <option value="$PROJECT_DIR$/splash.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/modal.html" />
+        <option value="$PROJECT_DIR$/partners.html" />
+        <option value="$PROJECT_DIR$/signin.html" />
+        <option value="$PROJECT_DIR$/signup.html" />
+        <option value="$PROJECT_DIR$/splash.html" />
+        <option value="$PROJECT_DIR$/topic-library.html" />
         <option value="$PROJECT_DIR$/dash.html" />
       </list>
     </option>
@@ -423,18 +446,18 @@
       <workItem from="1486370509793" duration="6904000" />
       <workItem from="1486387497282" duration="37620000" />
       <workItem from="1486435263843" duration="177000" />
-      <workItem from="1486455647297" duration="12071000" />
+      <workItem from="1486455647297" duration="12772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74484000" />
+    <option name="totallyTimeSpent" value="75185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19122024" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19122024" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -501,10 +524,6 @@
             <element signature="n#div#2;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#68939#68944#0" expanded="true" />
-            <element signature="e#78179#78183#0" expanded="true" />
-            <element signature="e#78308#78312#0" expanded="true" />
-            <element signature="e#78312#78316#0" expanded="true" />
-            <element signature="e#78323#78327#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -560,6 +579,7 @@
             <element signature="n#style#0;n#div#0;n#myg-progress-circular#0;n#div#1;n#md-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-pagination-wrapper#0;n#div#0;n#md-tabs-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#md-pagination-wrapper#0;n#div#0;n#md-tabs-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#md-card#0;n#section#0;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#0;n#section#0;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#0;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -570,6 +590,7 @@
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#5;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#6;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -627,10 +648,6 @@
             <element signature="n#div#2;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#68939#68944#0" expanded="true" />
-            <element signature="e#78179#78183#0" expanded="true" />
-            <element signature="e#78308#78312#0" expanded="true" />
-            <element signature="e#78312#78316#0" expanded="true" />
-            <element signature="e#78323#78327#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -686,6 +703,7 @@
             <element signature="n#style#0;n#div#0;n#myg-progress-circular#0;n#div#1;n#md-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-pagination-wrapper#0;n#div#0;n#md-tabs-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#md-pagination-wrapper#0;n#div#0;n#md-tabs-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#md-card#0;n#section#0;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#0;n#section#0;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#0;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -696,6 +714,7 @@
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#5;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#6;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -754,10 +773,6 @@
             <element signature="n#div#2;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#68939#68944#0" expanded="true" />
-            <element signature="e#78179#78183#0" expanded="true" />
-            <element signature="e#78308#78312#0" expanded="true" />
-            <element signature="e#78312#78316#0" expanded="true" />
-            <element signature="e#78323#78327#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -832,10 +847,6 @@
             <element signature="n#div#2;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#68939#68944#0" expanded="true" />
-            <element signature="e#78179#78183#0" expanded="true" />
-            <element signature="e#78308#78312#0" expanded="true" />
-            <element signature="e#78312#78316#0" expanded="true" />
-            <element signature="e#78323#78327#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -900,10 +911,6 @@
             <element signature="n#div#2;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#68939#68944#0" expanded="true" />
-            <element signature="e#78179#78183#0" expanded="true" />
-            <element signature="e#78308#78312#0" expanded="true" />
-            <element signature="e#78312#78316#0" expanded="true" />
-            <element signature="e#78323#78327#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -992,20 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="290" column="63" lean-forward="false" selection-start-line="290" selection-start-column="63" selection-end-line="290" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="326" column="25" lean-forward="false" selection-start-line="326" selection-start-column="25" selection-end-line="326" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/topic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
@@ -1022,30 +1015,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson/70.html" />
-    <entry file="file://$PROJECT_DIR$/modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modal bask.html" />
-    <entry file="file://$PROJECT_DIR$/signin.html">
+    <entry file="file://$PROJECT_DIR$/css/dash.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="348" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="675" selection-end-column="7" />
+        <state relative-caret-position="27013">
+          <caret line="1589" column="29" lean-forward="false" selection-start-line="1589" selection-start-column="29" selection-end-line="1589" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742339">
-          <caret line="43667" column="0" lean-forward="false" selection-start-line="43667" selection-start-column="0" selection-end-line="43667" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="42948" column="0" lean-forward="true" selection-start-line="42948" selection-start-column="0" selection-end-line="42952" selection-end-column="3" />
           <folding>
             <element signature="e#577363#577536#2" expanded="true" />
             <element signature="e#578825#578998#2" expanded="true" />
@@ -1056,38 +1038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/dash.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27013">
-          <caret line="1589" column="29" lean-forward="false" selection-start-line="1589" selection-start-column="29" selection-end-line="1589" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topic-library.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="395" column="63" lean-forward="false" selection-start-line="395" selection-start-column="63" selection-end-line="395" selection-end-column="63" />
-          <caret line="467" column="63" lean-forward="false" selection-start-line="467" selection-start-column="63" selection-end-line="467" selection-end-column="63" />
-          <caret line="533" column="63" lean-forward="false" selection-start-line="533" selection-start-column="63" selection-end-line="533" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="921" column="63" lean-forward="true" selection-start-line="921" selection-start-column="51" selection-end-line="921" selection-end-column="63" />
+        <state relative-caret-position="417">
+          <caret line="1370" column="0" lean-forward="true" selection-start-line="1370" selection-start-column="0" selection-end-line="1370" selection-end-column="0" />
           <folding>
             <element signature="e#5409#5414#0" expanded="true" />
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1122,23 +1076,74 @@
             <element signature="n#div#2;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#68939#68944#0" expanded="true" />
-            <element signature="e#78179#78183#0" expanded="true" />
-            <element signature="e#78308#78312#0" expanded="true" />
-            <element signature="e#78312#78316#0" expanded="true" />
-            <element signature="e#78323#78327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="647" column="0" lean-forward="false" selection-start-line="647" selection-start-column="0" selection-end-line="647" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="946" column="0" lean-forward="false" selection-start-line="946" selection-start-column="0" selection-end-line="946" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="650" column="0" lean-forward="false" selection-start-line="650" selection-start-column="0" selection-end-line="650" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="658" column="0" lean-forward="false" selection-start-line="658" selection-start-column="0" selection-end-line="658" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic-library.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="871" column="0" lean-forward="false" selection-start-line="871" selection-start-column="0" selection-end-line="871" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="517" column="40" lean-forward="true" selection-start-line="517" selection-start-column="40" selection-end-line="517" selection-end-column="40" />
+        <state relative-caret-position="61">
+          <caret line="1075" column="21" lean-forward="false" selection-start-line="1075" selection-start-column="21" selection-end-line="1075" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#div#0;n#myg-progress-circular#0;n#div#0;n#md-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#myg-progress-circular#0;n#div#1;n#md-card#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-pagination-wrapper#0;n#div#0;n#md-tabs-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#md-pagination-wrapper#0;n#div#0;n#md-tabs-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#md-card#0;n#section#0;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#0;n#section#0;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#0;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1149,6 +1154,7 @@
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#5;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#md-progress-linear#0;n#div#1;n#md-card#6;n#section#2;n#div#0;n#div#0;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#md-tabs-content-wrapper#0;n#md-tabs#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#myg-dotted-progress#0;n#div#0;n#section#0;n#md-card#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

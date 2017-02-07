@@ -34688,7 +34688,7 @@ p:last-of-type {
 
 .svg-carousel-icon {
     display: block;
-    background: url("static/img/icons/ic-arrow-carousel-l.svg") no-repeat 0 0;
+    background: url("../static/img/icons/ic-arrow-carousel-l.svg") no-repeat 0 0;
     background-size: 2rem;
     content: ""
 }
@@ -41627,7 +41627,7 @@ md-dialog.video-lightbox .video-lightbox__title {
 
 .svg-carousel-icon, .slick-prev:before, .slick-next:before {
     display: block;
-    background: url("/static/img/icons/ic-arrow-carousel-l.svg") no-repeat 0 0;
+    background: url("../static/img/icons/ic-arrow-carousel-l.svg") no-repeat 0 0;
     background-size: 2rem;
     content: ""
 }
@@ -42947,10 +42947,10 @@ p.freeform__text {
     font-size: 15px;
 }
 
-.slick-arrow, .slick-arrow:hover, .slick-arrow:focus {
-    background-color: #337ab7;
-    border-color: #2e6da4;
-}
+/*.slick-arrow, .slick-arrow:hover, .slick-arrow:focus {*/
+    /*background-color: #337ab7;*/
+    /*border-color: #2e6da4;*/
+/*}*/
 
 .awards .section__label {
 
