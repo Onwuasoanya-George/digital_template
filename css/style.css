@@ -43567,7 +43567,7 @@ md-card.card.card--partner._md {
 }
 
 .wrapper.js-page-wrapper.ng-isolate-scope, .wrapper.js-page-wrapper.ng-isolate-scope {
-    background-color: #eee;
+    background-color: #F5F5F5;
 }
 
 button.md-button.md-default-theme.main-sidenav__action-start.action-start.md-primary.md-raised.md-button.ng-isolate-scope.md-ink-ripple {
@@ -43661,7 +43661,7 @@ a.main-sidenav__action-start.action-start.md-primary.md-raised.md-button.md-ink-
 }
 
 .wrapper , .subpage-content.subpage-content__activity--card, .subpage-content{
-    background-color: #eee;
+    background-color: #F5F5F5;
 }
 
 .main-header__action-dash{color:#3F51B5;display:none}@media (min-width: 361px){.main-header__action-dash{display:block}}.main-header__action-dash-wrapper{margin-right:2rem}.dashboard-wrapper .main-header__action-dash-wrapper{padding:0.8rem 0;border-bottom:4px solid #3F51B5}@media (min-width: 768px){.dashboard-wrapper .main-header__action-dash-wrapper{padding:1.2rem 0}}

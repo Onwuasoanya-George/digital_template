@@ -42,6 +42,18 @@ $(document).ready(function () {
         variableWidth: true
 
     });
+    $('.slick-track.slick-track3').slick({
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+
+    });
 
     $('.topic_library_show').click(function (e) {
         //  calls for the parent wrapper so we can grab anything within
