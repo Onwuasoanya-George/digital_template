@@ -42948,8 +42948,8 @@ p.freeform__text {
 }
 
 /*.slick-arrow, .slick-arrow:hover, .slick-arrow:focus {*/
-    /*background-color: #337ab7;*/
-    /*border-color: #2e6da4;*/
+/*background-color: #337ab7;*/
+/*border-color: #2e6da4;*/
 /*}*/
 
 .awards .section__label {
@@ -43631,8 +43631,6 @@ a.main-sidenav__action-start.action-start.md-primary.md-raised.md-button.md-ink-
     padding: 0 2rem 2rem;
 }
 
-
-
 .signup-dialog__actions {
     display: -webkit-box;
     display: -webkit-flex;
@@ -43660,8 +43658,48 @@ a.main-sidenav__action-start.action-start.md-primary.md-raised.md-button.md-ink-
     padding: 0 2rem 2rem;
 }
 
-.wrapper , .subpage-content.subpage-content__activity--card, .subpage-content{
+.wrapper, .subpage-content.subpage-content__activity--card, .subpage-content {
     background-color: #F5F5F5;
 }
 
-.main-header__action-dash{color:#3F51B5;display:none}@media (min-width: 361px){.main-header__action-dash{display:block}}.main-header__action-dash-wrapper{margin-right:2rem}.dashboard-wrapper .main-header__action-dash-wrapper{padding:0.8rem 0;border-bottom:4px solid #3F51B5}@media (min-width: 768px){.dashboard-wrapper .main-header__action-dash-wrapper{padding:1.2rem 0}}
+.main-header__action-dash {
+    color: #3F51B5;
+    display: none
+}
+
+@media (min-width: 361px) {
+    .main-header__action-dash {
+        display: block
+    }
+}
+
+.main-header__action-dash-wrapper {
+    margin-right: 2rem
+}
+
+.dashboard-wrapper .main-header__action-dash-wrapper {
+    padding: 0.8rem 0;
+    border-bottom: 4px solid #3F51B5
+}
+
+@media (min-width: 768px) {
+    .dashboard-wrapper .main-header__action-dash-wrapper {
+        padding: 1.2rem 0
+    }
+}
+
+.persona-avatar[data-persona="no-diagnostics"] {
+    background-image: url('../image/avatar_no_diagnostics_image_url.png');
+}
+
+.dashboard-header__user-avatar {
+    min-width: 6rem;
+    min-height: 6rem;
+    background-size: 100%;
+}
+
+.persona-avatar {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
