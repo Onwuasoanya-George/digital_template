@@ -343,8 +343,8 @@
                                                            style="width: 559px;">
                                         <a
                                                 class="md-tab ng-scope ng-isolate-scope md-ink-ripple  "
-                                                role="tab" data-toggle="tab" style="width: 50%;"
-                                                href="#tab-content-1">
+                                                role="tab" data-toggle="tab" href="#tab-content-1" style="width: 50%;"
+                                                >
                                             <span class="ng-scope">Watch the lesson</span>
                                         </a>
                                         <a
@@ -363,16 +363,9 @@
                                     class="_md tab-content ">
                                 <div id="tab-content-1"
                                      class="_md ng-scope md-no-scroll md-left tab-pane  md-active  active"
-                                     role="tabpanel" aria-labelledby="tab-item-1"
-                                     md-swipe-left="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(1)"
-                                     md-swipe-right="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(-1)"
-                                     ng-if="$mdTabsCtrl.hasContent"
-                                     ng-repeat="(index, tab) in $mdTabsCtrl.tabs"
-                                     ng-class="{ 'md-no-transition': $mdTabsCtrl.lastSelectedIndex == null, 'md-active':        tab.isActive(), 'md-left':          tab.isLeft(), 'md-right':         tab.isRight(), 'md-no-scroll':     $mdTabsCtrl.dynamicHeight }">
+                                     role="tabpanel" aria-labelledby="tab-item-1" >
                                     <!-- ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() -->
-                                    <div md-tabs-template="::tab.template" md-connected-if="tab.isActive()"
-                                         md-scope="::tab.parent"
-                                         ng-if="$mdTabsCtrl.enableDisconnect || tab.shouldRender()"
+                                    <div
                                          class="ng-scope ng-isolate-scope">
                                         <div class="myg-activities-card__video-tab ng-scope">
 

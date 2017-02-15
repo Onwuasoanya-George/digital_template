@@ -563,7 +563,7 @@ md-input-container label.feedback-form__radio-label:not(._md-container-ignore) {
     border-radius: 2px
 }
 
-.md-active .feedback__tab-icon {
+.md-active .feedback__tab-icon, .active .feedback__tab-icon{
     color: #fff;
     background-color: #4054B2
 }

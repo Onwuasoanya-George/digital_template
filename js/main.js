@@ -25,6 +25,8 @@ $(document).mouseup(function (e) {
         closeNav();
     }
 });
+
+
 $(document).ready(function () {
     $('.slick-track').slick({
         dots: true,
@@ -55,6 +57,7 @@ $(document).ready(function () {
 
     });
 
+
     $('.topic_library_show').click(function (e) {
         //  calls for the parent wrapper so we can grab anything within
         var wrapper = $(this).parents(".topic_library_wrapper").first();
@@ -71,5 +74,14 @@ $(document).ready(function () {
         wrapper.find('p.content__body__description').toggleClass('topic_library_hide');
         wrapper.find('ol.card-progress__lesson-listings').toggleClass('topic_library_hide');
         wrapper.find('button.more_info.card__action.md-button.md-ink-ripple').toggleClass('topic_library_show');
+    });
+
+
+    $('.accordion__header.js-accordion-title').click(function () {
+        $('.accordion__panel.js-accordion-item-panel').slideToggle('5000');
+
+        $('#q-5763418761986048, #q-5697070107197440').toggleClass('accordion__item--is-active');
+
+
     });
 });

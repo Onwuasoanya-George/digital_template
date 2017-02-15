@@ -9,6 +9,14 @@
     <link href="assets/slick/slick.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/feedback.css" rel="stylesheet">
+    <style>
+
+        .subpage-content {
+            max-width: 75.4rem;
+            margin: 0 auto 4rem;
+            position: relative;
+        }
+    </style>
 </head>
 <body>
 
@@ -318,46 +326,18 @@
                     Click a category to get started.</h2>
             </div>
         </header>
-        <div class="feedback__subpage-content subpage-content subpage-content--tabs js-subpage-content">
-            <div class="feedback__tabs" myg-routed-tabs="">
+        <div class="feedback__subpage-content subpage-content subpage-content--tabs js-subpage-content"
+             style="margin-top: -40px ; padding-left: 0px; padding-right: 0px;">
+            <div class="feedback__tabs "
+                 style="margin-left: 0px; margin-right: 0px;  padding-left: 0px; padding-right: 0px;">
                 <md-tabs md-dynamic-height="" md-no-ink-bar="" md-stretch-tabs="always" md-center-tabs=""
                          md-selected="routedTabs.selectedIndex" class="ng-isolate-scope md-dynamic-height">
-                    <md-tabs-wrapper class="md-stretch-tabs">
-                        <md-tab-data>
-
-                            <md-tab myg-route="general" class="ng-scope ng-isolate-scope">
-
-
-                            </md-tab>
-
-                            <md-tab myg-route="content" class="ng-scope ng-isolate-scope">
-
-
-                            </md-tab>
-
-                            <md-tab myg-route="bug" class="ng-scope ng-isolate-scope">
-
-
-                            </md-tab>
-
-                        </md-tab-data> <!-- ngIf: $mdTabsCtrl.shouldPaginate -->
-                        <!-- ngIf: $mdTabsCtrl.shouldPaginate -->
-                        <md-tabs-canvas tabindex="0" aria-activedescendant="tab-item-1"
-                                        ng-focus="$mdTabsCtrl.redirectFocus()"
-                                        ng-class="{ 'md-paginated': $mdTabsCtrl.shouldPaginate, 'md-center-tabs': $mdTabsCtrl.shouldCenterTabs }"
-                                        ng-keydown="$mdTabsCtrl.keydown($event)" role="tablist" class="md-center-tabs">
-                            <md-pagination-wrapper ng-class="{ 'md-center-tabs': $mdTabsCtrl.shouldCenterTabs }"
-                                                   md-tab-scroll="$mdTabsCtrl.scroll($event)" class="md-center-tabs">
-                                <!-- ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-tab-item tabindex="-1"
-                                             class="md-tab ng-scope ng-isolate-scope md-ink-ripple md-active"
-                                             ng-repeat="tab in $mdTabsCtrl.tabs" role="tab"
-                                             aria-controls="tab-content-1" aria-selected="true" aria-disabled="false"
-                                             ng-click="$mdTabsCtrl.select(tab.getIndex())"
-                                             ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }"
-                                             ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()"
-                                             md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label"
-                                             md-scope="::tab.parent">
+                    <md-tabs-wrapper class="md-stretch-tabs" style=" margin-left: 0px; margin-right: 0px;">
+                        <md-tabs-canvas tabindex="0" aria-activedescendant="tab-item-1" role="tablist"
+                                        class="md-center-tabs">
+                            <md-pagination-wrapper class="md-center-tabs">
+                                <a role="tab" data-toggle="tab" href="#tab-content-1"
+                                   class="md-tab ng-scope ng-isolate-scope md-ink-ripple md-active">
                                     <i class="material-icons feedback__tab-icon md-whiteframe-2dp ng-scope">
                                         announcement
                                     </i>
@@ -365,15 +345,11 @@
                                         General
                                     </h3>
                                     <div class="md-ripple-container"></div>
-                                </md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-tab-item tabindex="-1" class="md-tab ng-scope ng-isolate-scope md-ink-ripple"
-                                             ng-repeat="tab in $mdTabsCtrl.tabs" role="tab"
-                                             aria-controls="tab-content-2" aria-selected="false" aria-disabled="false"
-                                             ng-click="$mdTabsCtrl.select(tab.getIndex())"
-                                             ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }"
-                                             ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()"
-                                             md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label"
-                                             md-scope="::tab.parent">
+                                </a><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
+                                <a role="tab" data-toggle="tab" href="#tab-content-2"
+                                   class="md-tab ng-scope ng-isolate-scope md-ink-ripple  md-active"
+                                   role="tab"
+                                   aria-controls="tab-content-2" aria-selected="false" aria-disabled="false">
                                     <i class="material-icons feedback__tab-icon md-whiteframe-2dp ng-scope">
                                         book
                                     </i>
@@ -381,15 +357,11 @@
                                         Content
                                     </h3>
                                     <div class="md-ripple-container"></div>
-                                </md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-tab-item tabindex="-1" class="md-tab ng-scope ng-isolate-scope md-ink-ripple"
-                                             ng-repeat="tab in $mdTabsCtrl.tabs" role="tab"
-                                             aria-controls="tab-content-3" aria-selected="false" aria-disabled="false"
-                                             ng-click="$mdTabsCtrl.select(tab.getIndex())"
-                                             ng-class="{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }"
-                                             ng-disabled="tab.scope.disabled" md-swipe-left="$mdTabsCtrl.nextPage()"
-                                             md-swipe-right="$mdTabsCtrl.previousPage()" md-tabs-template="::tab.label"
-                                             md-scope="::tab.parent">
+                                </a><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
+                                <a role="tab" data-toggle="tab" href="#tab-content-3"
+                                   class="md-tab ng-scope ng-isolate-scope md-ink-ripple md-active"
+                                   role="tab"
+                                   aria-controls="tab-content-3" aria-selected="false" aria-disabled="false">
                                     <i class="material-icons feedback__tab-icon md-whiteframe-2dp ng-scope">
                                         bug_report
                                     </i>
@@ -397,72 +369,26 @@
                                         Report a bug
                                     </h3>
                                     <div class="md-ripple-container"></div>
-                                </md-tab-item><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
+                                </a><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
                                 <md-ink-bar class="ng-hide md-left" style="left: 0px; right: 499px;"></md-ink-bar>
                             </md-pagination-wrapper>
-                            <md-tabs-dummy-wrapper class="_md-visually-hidden md-dummy-wrapper">
-                                <!-- ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-dummy-tab class="md-tab ng-scope ng-isolate-scope" tabindex="-1" id="tab-item-1"
-                                              role="tab" aria-controls="tab-content-1" aria-selected="true"
-                                              aria-disabled="false" ng-focus="$mdTabsCtrl.hasFocus = true"
-                                              ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs"
-                                              md-tabs-template="::tab.label" md-scope="::tab.parent">
-                                    <i class="material-icons feedback__tab-icon md-whiteframe-2dp ng-scope">
-                                        announcement
-                                    </i>
-                                    <h3 class="feedback__tab-name ng-scope">
-                                        General
-                                    </h3>
-                                </md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-dummy-tab class="md-tab ng-scope ng-isolate-scope" tabindex="-1" id="tab-item-2"
-                                              role="tab" aria-controls="tab-content-2" aria-selected="false"
-                                              aria-disabled="false" ng-focus="$mdTabsCtrl.hasFocus = true"
-                                              ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs"
-                                              md-tabs-template="::tab.label" md-scope="::tab.parent">
-                                    <i class="material-icons feedback__tab-icon md-whiteframe-2dp ng-scope">
-                                        book
-                                    </i>
-                                    <h3 class="feedback__tab-name ng-scope">
-                                        Content
-                                    </h3>
-                                </md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs -->
-                                <md-dummy-tab class="md-tab ng-scope ng-isolate-scope" tabindex="-1" id="tab-item-3"
-                                              role="tab" aria-controls="tab-content-3" aria-selected="false"
-                                              aria-disabled="false" ng-focus="$mdTabsCtrl.hasFocus = true"
-                                              ng-blur="$mdTabsCtrl.hasFocus = false" ng-repeat="tab in $mdTabsCtrl.tabs"
-                                              md-tabs-template="::tab.label" md-scope="::tab.parent">
-                                    <i class="material-icons feedback__tab-icon md-whiteframe-2dp ng-scope">
-                                        bug_report
-                                    </i>
-                                    <h3 class="feedback__tab-name ng-scope">
-                                        Report a bug
-                                    </h3>
-                                </md-dummy-tab><!-- end ngRepeat: tab in $mdTabsCtrl.tabs --> </md-tabs-dummy-wrapper>
+
                         </md-tabs-canvas>
                     </md-tabs-wrapper>
-                    <md-tabs-content-wrapper ng-show="$mdTabsCtrl.hasContent &amp;&amp; $mdTabsCtrl.selectedIndex >= 0"
-                                             class="_md" aria-hidden="false">
+                    <md-tabs-content-wrapper class="_md tab-content">
                         <!-- ngRepeat: (index, tab) in $mdTabsCtrl.tabs --><!-- ngIf: $mdTabsCtrl.hasContent -->
-                        <md-tab-content id="tab-content-1" class="_md ng-scope md-no-scroll md-active" role="tabpanel"
-                                        aria-labelledby="tab-item-1"
-                                        md-swipe-left="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(1)"
-                                        md-swipe-right="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(-1)"
-                                        ng-if="$mdTabsCtrl.hasContent" ng-repeat="(index, tab) in $mdTabsCtrl.tabs"
-                                        ng-class="{ 'md-no-transition': $mdTabsCtrl.lastSelectedIndex == null, 'md-active':        tab.isActive(), 'md-left':          tab.isLeft(), 'md-right':         tab.isRight(), 'md-no-scroll':     $mdTabsCtrl.dynamicHeight }">
-                            <!-- ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() -->
-                            <div md-tabs-template="::tab.template" md-connected-if="tab.isActive()"
-                                 md-scope="::tab.parent" ng-if="$mdTabsCtrl.enableDisconnect || tab.shouldRender()"
-                                 class="ng-scope ng-isolate-scope">
+                        <div  id="tab-content-1" class="_md ng-scope md-no-scroll tab-pane active " role="tabpanel"
+                                        aria-labelledby="tab-item-1">
+                            <div  class="ng-scope ng-isolate-scope">
 
                                 <div class="feedback__faqs ng-scope">
                                     <h3 class="feedback__heading">
                                         Related frequently asked question
                                     </h3>
                                     <md-card class="_md">
-                                        <myg-accordion class="accordion js-accordion ng-isolate-scope"
-                                                       selected-item-id="faqs.selectedQuestion">
+                                        <myg-accordion class="accordion js-accordion ng-isolate-scope">
 
-                                            <div class="feedback__faq accordion__item js-accordion-item accordion__item--is-active"
+                                            <div class="feedback__faq accordion__item js-accordion-item"
                                                  id="q-5697070107197440">
                                                 <div class="accordion__header js-accordion-title" tabindex="0">
                                                     <h3 class="feedback__faq-title accordion__title">
@@ -472,7 +398,7 @@
                                                        role="presentation" aria-label="">expand_more</i>
                                                 </div>
                                                 <div class="accordion__panel js-accordion-item-panel"
-                                                     style="position: static; visibility: visible; display: block; height: 291px;">
+                                                     style="display: none;">
                                                     <p class="feedback__faq-answer">Don't worry. There's a good chance
                                                         your progress is simply linked to one of your other email
                                                         accounts. Try switching your login details to check any other
@@ -566,6 +492,7 @@
                                                     <label for="myg-feedback-form__tab1__message"
                                                            class="myg-feedback-form__label">Tell us about any ideas or
                                                         feedback you'd like to share</label>
+                                                    <br />
                                                     <textarea id="myg-feedback-form__tab1__message" name="message"
                                                               aria-label="" cols="40" rows="10"
                                                               ng-model="feedbackFormCtrl.formData['message']"
@@ -641,9 +568,9 @@
 
                                 </div>
                             </div><!-- end ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() -->
-                        </md-tab-content><!-- end ngIf: $mdTabsCtrl.hasContent -->
-                        <!-- end ngRepeat: (index, tab) in $mdTabsCtrl.tabs --><!-- ngIf: $mdTabsCtrl.hasContent -->
-                        <md-tab-content id="tab-content-2" class="_md ng-scope md-no-scroll md-right" role="tabpanel"
+                        </div>
+
+                        <div id="tab-content-2" class="_md ng-scope md-no-scroll md-right tab-pane " role="tabpanel"
                                         aria-labelledby="tab-item-2"
                                         md-swipe-left="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(1)"
                                         md-swipe-right="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(-1)"
@@ -757,9 +684,9 @@
 
                                 </div>
                             </div><!-- end ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() -->
-                        </md-tab-content><!-- end ngIf: $mdTabsCtrl.hasContent -->
-                        <!-- end ngRepeat: (index, tab) in $mdTabsCtrl.tabs --><!-- ngIf: $mdTabsCtrl.hasContent -->
-                        <md-tab-content id="tab-content-3" class="_md ng-scope md-no-scroll md-right" role="tabpanel"
+                        </div>
+
+                        <div id="tab-content-3" class="_md ng-scope md-no-scroll md-right tab-pane " role="tabpanel"
                                         aria-labelledby="tab-item-3"
                                         md-swipe-left="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(1)"
                                         md-swipe-right="$mdTabsCtrl.swipeContent &amp;&amp; $mdTabsCtrl.incrementIndex(-1)"
@@ -935,7 +862,7 @@
 
                                 </div>
                             </div><!-- end ngIf: $mdTabsCtrl.enableDisconnect || tab.shouldRender() -->
-                        </md-tab-content><!-- end ngIf: $mdTabsCtrl.hasContent -->
+                        </div>
                         <!-- end ngRepeat: (index, tab) in $mdTabsCtrl.tabs --> </md-tabs-content-wrapper>
                 </md-tabs>
 
